@@ -1,0 +1,1963 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+
+    <title>
+        Create Event | WXNDSH
+    </title>
+
+
+    <!-- ========================================
+         MAIN WEBSITE CSS
+    ========================================= -->
+
+    <link
+        href="css/stylewebsite.css"
+        type="text/css"
+        rel="stylesheet"
+    >
+
+
+    <!-- ========================================
+         CREATE EVENT CSS
+    ========================================= -->
+
+    <link
+        href="css/stylecreate.css"
+        type="text/css"
+        rel="stylesheet"
+    >
+
+
+    <!-- ========================================
+         GOOGLE FONTS
+    ========================================= -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allison&family=Inter:wght@400;500;600;700&family=Montserrat:wght@800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- ========================================
+         FONT AWESOME
+    ========================================= -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+</head>
+
+
+
+<body>
+
+
+<!-- ========================================
+     MAIN CONTENT
+======================================== -->
+
+<div id="KotakBesar">
+
+
+    <!-- ========================================
+         HEADER
+    ========================================= -->
+
+    <div id="Header">
+
+
+        <!-- ========================================
+             LOGO
+        ========================================= -->
+
+        <div id="Logo">
+
+            <img
+                src="img/logo.png"
+                alt="WXNDSH Logo"
+            >
+
+            <span>
+                WXNDSH
+            </span>
+
+        </div>
+
+
+
+        <!-- ========================================
+             NAVIGATION MENU
+        ========================================= -->
+
+        <div id="Menu">
+
+
+            <a
+                href="index.html"
+                id="HomeText"
+            >
+                Home
+            </a>
+
+
+            <a
+                href="savedevents.html"
+                id="SavedText"
+            >
+                Saved Events
+            </a>
+
+
+            <a
+                href="aboutus.html"
+                id="AboutText"
+            >
+                About Us
+            </a>
+
+
+            <a
+                href="contactus.html"
+                id="ContactText"
+            >
+                Contact Us
+            </a>
+
+
+        </div>
+
+
+
+        <!-- ========================================
+             HEADER RIGHT
+        ========================================= -->
+
+        <div id="HeaderRight">
+
+
+            <!-- ========================================
+                 LANGUAGE
+            ========================================= -->
+
+            <div id="Language">
+
+                <button
+                    type="button"
+                    id="LanguageButton"
+                >
+
+                    <img
+                        src="img/uk flag.png"
+                        id="LanguageFlag"
+                        alt="Language"
+                    >
+
+                </button>
+
+
+                <span id="LanguageText">
+                    EN
+                </span>
+
+            </div>
+
+
+
+            <!-- ========================================
+                 CREATE EVENT BUTTON
+            ========================================= -->
+
+            <div id="CreateEvent">
+
+                <a
+                    href="create.html"
+                    id="CreateEventText"
+                    class="ActiveCreateEvent"
+                >
+                    Create Event
+                </a>
+
+            </div>
+
+
+            <div class="Clear"></div>
+
+
+        </div>
+
+
+        <div class="Clear"></div>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         CREATE EVENT BANNER
+    ========================================= -->
+
+    <div id="CreateEventBanner">
+
+
+        <div id="CreateEventBannerOverlay"></div>
+
+
+
+        <div id="CreateEventBannerText">
+
+
+            <p id="CreateBannerSmallText">
+                SHARE YOUR EVENT
+            </p>
+
+
+            <h1 id="CreateBannerHeading">
+                CREATE YOUR EVENT
+            </h1>
+
+
+            <p id="CreateBannerDescription">
+                Complete the form below and send your event
+                information directly to our WhatsApp.
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         CREATE EVENT HEADING
+    ========================================= -->
+
+    <div id="CreateEventHeadingSection">
+
+
+        <div id="CreateEventHeadingLabel">
+
+            <span id="CreateLabelText">
+                GET STARTED
+            </span>
+
+        </div>
+
+
+
+        <div id="CreateEventMainHeading">
+
+
+            <h1>
+
+
+                <span id="SubmitYourText">
+                    Submit Your
+                </span>
+
+
+                <span id="EventScriptText">
+                    Event
+                </span>
+
+
+            </h1>
+
+
+            <div id="CreateHeadingLine"></div>
+
+
+            <p id="CreateHeadingDescription">
+
+                Fill in all the required information.
+                Your event request will be prepared as a WhatsApp message.
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         CREATE EVENT FORM SECTION
+    ========================================= -->
+
+    <div id="CreateEventFormSection">
+
+
+        <form id="CreateEventForm">
+
+
+            <!-- ========================================
+                 EVENT INFORMATION
+            ========================================= -->
+
+            <div class="CreateFormCard">
+
+
+                <div class="CreateFormCardHeading">
+
+
+                    <i class="fa-solid fa-calendar-days"></i>
+
+
+                    <h2 id="EventInformationHeading">
+                        EVENT INFORMATION
+                    </h2>
+
+
+                </div>
+
+
+
+                <div class="CreateFormDivider"></div>
+
+
+
+                <!-- EVENT NAME -->
+
+                <div class="CreateFormGroup CreateFormFullWidth">
+
+
+                    <label
+                        for="EventName"
+                        id="EventNameLabel"
+                    >
+                        Event Name
+                        <span>*</span>
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="EventName"
+                        name="eventName"
+                        placeholder="Enter the event name"
+                        required
+                    >
+
+
+                </div>
+
+
+
+                <!-- EVENT CATEGORY -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="EventCategory"
+                        id="EventCategoryLabel"
+                    >
+                        Event Category
+                        <span>*</span>
+                    </label>
+
+
+                    <select
+                        id="EventCategory"
+                        name="eventCategory"
+                        required
+                    >
+
+
+                        <option
+                            value=""
+                            selected
+                            disabled
+                        >
+                            Select a category
+                        </option>
+
+
+                        <option value="Entertainment">
+                            Entertainment
+                        </option>
+
+
+                        <option value="Sports">
+                            Sports
+                        </option>
+
+
+                        <option value="Travel">
+                            Travel
+                        </option>
+
+
+                        <option value="Seminar">
+                            Seminar
+                        </option>
+
+
+                        <option value="Exhibitions">
+                            Exhibitions
+                        </option>
+
+
+                        <option value="Others">
+                            Others
+                        </option>
+
+
+                    </select>
+
+
+                </div>
+
+
+
+                <!-- EVENT LOCATION -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="EventLocation"
+                        id="EventLocationLabel"
+                    >
+                        Event Location
+                        <span>*</span>
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="EventLocation"
+                        name="eventLocation"
+                        placeholder="Enter the event location"
+                        required
+                    >
+
+
+                </div>
+
+
+
+                <!-- EVENT DATE -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="EventDate"
+                        id="EventDateLabel"
+                    >
+                        Event Date
+                        <span>*</span>
+                    </label>
+
+
+                    <input
+                        type="date"
+                        id="EventDate"
+                        name="eventDate"
+                        required
+                    >
+
+
+                </div>
+
+
+
+                <!-- EVENT END DATE -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="EventEndDate"
+                        id="EventEndDateLabel"
+                    >
+                        Event End Date
+                    </label>
+
+
+                    <input
+                        type="date"
+                        id="EventEndDate"
+                        name="eventEndDate"
+                    >
+
+
+                </div>
+
+
+
+                <!-- START TIME -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="EventStartTime"
+                        id="EventStartTimeLabel"
+                    >
+                        Start Time
+                        <span>*</span>
+                    </label>
+
+
+                    <input
+                        type="time"
+                        id="EventStartTime"
+                        name="eventStartTime"
+                        required
+                    >
+
+
+                </div>
+
+
+
+                <!-- END TIME -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="EventEndTime"
+                        id="EventEndTimeLabel"
+                    >
+                        End Time
+                    </label>
+
+
+                    <input
+                        type="time"
+                        id="EventEndTime"
+                        name="eventEndTime"
+                    >
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ========================================
+                 ORGANISER INFORMATION
+            ========================================= -->
+
+            <div class="CreateFormCard">
+
+
+                <div class="CreateFormCardHeading">
+
+
+                    <i class="fa-solid fa-building"></i>
+
+
+                    <h2 id="OrganiserInformationHeading">
+                        ORGANISER INFORMATION
+                    </h2>
+
+
+                </div>
+
+
+
+                <div class="CreateFormDivider"></div>
+
+
+
+                <!-- ORGANISER NAME -->
+
+                <div class="CreateFormGroup CreateFormFullWidth">
+
+
+                    <label
+                        for="OrganiserName"
+                        id="OrganiserNameLabel"
+                    >
+                        Organiser Name
+                        <span>*</span>
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="OrganiserName"
+                        name="organiserName"
+                        placeholder="Enter the organiser name"
+                        required
+                    >
+
+
+                </div>
+
+
+
+                <!-- CONTACT PERSON -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="ContactPerson"
+                        id="ContactPersonLabel"
+                    >
+                        Contact Person
+                        <span>*</span>
+                    </label>
+
+
+                    <input
+                        type="text"
+                        id="ContactPerson"
+                        name="contactPerson"
+                        placeholder="Enter the contact person's name"
+                        required
+                    >
+
+
+                </div>
+
+
+
+                <!-- PHONE NUMBER -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="ContactPhone"
+                        id="ContactPhoneLabel"
+                    >
+                        Phone Number
+                        <span>*</span>
+                    </label>
+
+
+                    <input
+                        type="tel"
+                        id="ContactPhone"
+                        name="contactPhone"
+                        placeholder="Example: 0123456789"
+                        required
+                    >
+
+
+                </div>
+
+
+
+                <!-- EMAIL ADDRESS -->
+
+                <div class="CreateFormGroup CreateFormFullWidth">
+
+
+                    <label
+                        for="ContactEmail"
+                        id="ContactEmailLabel"
+                    >
+                        Email Address
+                        <span>*</span>
+                    </label>
+
+
+                    <input
+                        type="email"
+                        id="ContactEmail"
+                        name="contactEmail"
+                        placeholder="Enter the email address"
+                        required
+                    >
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ========================================
+                 EVENT DETAILS
+            ========================================= -->
+
+            <div class="CreateFormCard">
+
+
+                <div class="CreateFormCardHeading">
+
+
+                    <i class="fa-solid fa-circle-info"></i>
+
+
+                    <h2 id="EventDetailsHeading">
+                        EVENT DETAILS
+                    </h2>
+
+
+                </div>
+
+
+
+                <div class="CreateFormDivider"></div>
+
+
+
+                <!-- EVENT DESCRIPTION -->
+
+                <div class="CreateFormGroup CreateFormFullWidth">
+
+
+                    <label
+                        for="EventDescription"
+                        id="EventDescriptionLabel"
+                    >
+                        Event Description
+                        <span>*</span>
+                    </label>
+
+
+                    <textarea
+                        id="EventDescription"
+                        name="eventDescription"
+                        rows="7"
+                        placeholder="Describe the event, activities and important information"
+                        required
+                    ></textarea>
+
+
+                </div>
+
+
+
+                <!-- INSTAGRAM LINK -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="InstagramLink"
+                        id="InstagramLinkLabel"
+                    >
+                        Instagram Link
+                    </label>
+
+
+                    <input
+                        type="url"
+                        id="InstagramLink"
+                        name="instagramLink"
+                        placeholder="https://instagram.com/..."
+                    >
+
+
+                </div>
+
+
+
+                <!-- FACEBOOK LINK -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="FacebookLink"
+                        id="FacebookLinkLabel"
+                    >
+                        Facebook Link
+                    </label>
+
+
+                    <input
+                        type="url"
+                        id="FacebookLink"
+                        name="facebookLink"
+                        placeholder="https://facebook.com/..."
+                    >
+
+
+                </div>
+
+
+
+                <!-- WEBSITE LINK -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="WebsiteLink"
+                        id="WebsiteLinkLabel"
+                    >
+                        Website Link
+                    </label>
+
+
+                    <input
+                        type="url"
+                        id="WebsiteLink"
+                        name="websiteLink"
+                        placeholder="https://..."
+                    >
+
+
+                </div>
+
+
+
+                <!-- POSTER LINK -->
+
+                <div class="CreateFormGroup">
+
+
+                    <label
+                        for="PosterLink"
+                        id="PosterLinkLabel"
+                    >
+                        Event Poster Link
+                    </label>
+
+
+                    <input
+                        type="url"
+                        id="PosterLink"
+                        name="posterLink"
+                        placeholder="Google Drive or image link"
+                    >
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ========================================
+                 AGREEMENT
+            ========================================= -->
+
+            <div id="CreateEventAgreement">
+
+
+                <input
+                    type="checkbox"
+                    id="AgreementCheckbox"
+                    name="agreement"
+                    required
+                >
+
+
+                <label
+                    for="AgreementCheckbox"
+                    id="AgreementText"
+                >
+
+                    I confirm that all information provided is correct
+                    and I have permission to submit this event.
+
+                </label>
+
+
+            </div>
+
+
+
+            <!-- ========================================
+                 FORM MESSAGE
+            ========================================= -->
+
+            <p id="CreateEventFormMessage"></p>
+
+
+
+            <!-- ========================================
+                 SUBMIT EVENT BUTTON
+            ========================================= -->
+
+            <div id="CreateEventSubmit">
+
+
+                <button
+                    type="submit"
+                    id="SubmitEventButton"
+                >
+
+
+                    <span id="SubmitEventButtonText">
+                        SEND EVENT REQUEST
+                    </span>
+
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+
+                </button>
+
+
+            </div>
+
+
+        </form>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- ========================================
+     BACK TO TOP
+======================================== -->
+
+<button
+    type="button"
+    id="BackToTop"
+    aria-label="Back to top"
+>
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+
+<!-- ========================================
+     FOOTER
+======================================== -->
+
+<div id="Footer">
+
+
+    <!-- ========================================
+         FOOTER LOGO
+    ========================================= -->
+
+    <div id="FooterLogo">
+
+        <img
+            src="img/LOGO 2 TRANSPARENT.png"
+            alt="WXNDSH Logo"
+        >
+
+    </div>
+
+
+
+    <!-- ========================================
+         SOCIAL MEDIA
+    ========================================= -->
+
+    <div id="SocialMedia">
+
+
+        <h3 id="FollowUsText">
+            FOLLOW US ON
+        </h3>
+
+
+        <div class="SocialIcons">
+
+
+            <a
+                href="https://x.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <img
+                    src="img/logo x remove.png"
+                    alt="X"
+                >
+
+            </a>
+
+
+            <a
+                href="https://www.instagram.com/wxndsh/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <img
+                    src="img/logo ig remove.png"
+                    alt="Instagram"
+                >
+
+            </a>
+
+
+            <a
+                href="https://www.tiktok.com/@wxndssh"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <img
+                    src="img/logo tiktok remove.png"
+                    alt="TikTok"
+                >
+
+            </a>
+
+
+            <a
+                href="https://www.youtube.com/@bobversiMalaysia"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <img
+                    src="img/logo yt remove.png"
+                    alt="YouTube"
+                >
+
+            </a>
+
+
+            <a
+                href="https://www.facebook.com/profile.php?id=100069882215740"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <img
+                    src="img/logo facebook remove.png"
+                    alt="Facebook"
+                >
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         FOOTER CONTACT
+    ========================================= -->
+
+    <div id="FooterContact">
+
+
+        <h3 id="HelpFeedbackText">
+            HELP AND FEEDBACK
+        </h3>
+
+
+        <a
+            href="contactus.html"
+            id="FooterContactText"
+        >
+            CONTACT US &#8599;
+        </a>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         FOOTER CREATE EVENT
+    ========================================= -->
+
+    <div id="FooterCreate">
+
+
+        <h3 id="FooterCreateHeading">
+            CREATE YOUR EVENT
+        </h3>
+
+
+        <a
+            href="create.html"
+            id="FooterCreateText"
+        >
+            CREATE EVENT
+        </a>
+
+
+    </div>
+
+
+    <div class="Clear"></div>
+
+
+</div>
+
+
+
+<!-- ========================================
+     JAVASCRIPT
+======================================== -->
+
+<script type="text/javascript">
+
+
+    /* ========================================
+       BACK TO TOP
+    ======================================== */
+
+    var backToTop =
+        document.getElementById("BackToTop");
+
+
+    window.addEventListener("scroll", function(){
+
+
+        if(
+            document.body.scrollTop > 400 ||
+            document.documentElement.scrollTop > 400
+        ){
+
+
+            backToTop.classList.add(
+                "ShowBackToTop"
+            );
+
+
+        }else{
+
+
+            backToTop.classList.remove(
+                "ShowBackToTop"
+            );
+
+
+        }
+
+
+    });
+
+
+
+    backToTop.onclick = function(){
+
+
+        window.scrollTo({
+
+            top:0,
+
+            behavior:"smooth"
+
+        });
+
+
+    };
+
+
+
+    /* ========================================
+       CREATE EVENT FORM
+    ======================================== */
+
+    var createEventForm =
+        document.getElementById("CreateEventForm");
+
+    var createEventFormMessage =
+        document.getElementById("CreateEventFormMessage");
+
+
+
+    /* ========================================
+       FORMAT DATE
+    ======================================== */
+
+    function formatEventDate(dateValue){
+
+
+        if(dateValue == ""){
+
+
+            return "Not provided";
+
+
+        }
+
+
+        var selectedDate =
+            new Date(dateValue + "T00:00:00");
+
+
+        return selectedDate.toLocaleDateString(
+
+            "en-GB",
+
+            {
+
+                day:"numeric",
+
+                month:"long",
+
+                year:"numeric"
+
+            }
+
+        );
+
+
+    }
+
+
+
+    /* ========================================
+       FORMAT TIME
+    ======================================== */
+
+    function formatEventTime(timeValue){
+
+
+        if(timeValue == ""){
+
+
+            return "Not provided";
+
+
+        }
+
+
+        var timeParts =
+            timeValue.split(":");
+
+
+        var timeHour =
+            parseInt(timeParts[0]);
+
+        var timeMinute =
+            timeParts[1];
+
+        var timePeriod =
+            "AM";
+
+
+        if(timeHour >= 12){
+
+
+            timePeriod =
+                "PM";
+
+
+        }
+
+
+        if(timeHour == 0){
+
+
+            timeHour =
+                12;
+
+
+        }else if(timeHour > 12){
+
+
+            timeHour =
+                timeHour - 12;
+
+
+        }
+
+
+        return timeHour +
+            ":" +
+            timeMinute +
+            " " +
+            timePeriod;
+
+
+    }
+
+
+
+    /* ========================================
+       SUBMIT EVENT TO WHATSAPP
+    ======================================== */
+
+    createEventForm.onsubmit = function(event){
+
+
+        event.preventDefault();
+
+
+        if(createEventForm.checkValidity() == false){
+
+
+            createEventForm.reportValidity();
+
+
+            createEventFormMessage.innerHTML =
+                "Please complete all required information.";
+
+
+            return;
+
+
+        }
+
+
+
+        var eventName =
+            document
+                .getElementById("EventName")
+                .value
+                .trim();
+
+
+        var eventCategory =
+            document
+                .getElementById("EventCategory")
+                .value;
+
+
+        var eventLocation =
+            document
+                .getElementById("EventLocation")
+                .value
+                .trim();
+
+
+        var eventDate =
+            document
+                .getElementById("EventDate")
+                .value;
+
+
+        var eventEndDate =
+            document
+                .getElementById("EventEndDate")
+                .value;
+
+
+        var eventStartTime =
+            document
+                .getElementById("EventStartTime")
+                .value;
+
+
+        var eventEndTime =
+            document
+                .getElementById("EventEndTime")
+                .value;
+
+
+        var organiserName =
+            document
+                .getElementById("OrganiserName")
+                .value
+                .trim();
+
+
+        var contactPerson =
+            document
+                .getElementById("ContactPerson")
+                .value
+                .trim();
+
+
+        var contactPhone =
+            document
+                .getElementById("ContactPhone")
+                .value
+                .trim();
+
+
+        var contactEmail =
+            document
+                .getElementById("ContactEmail")
+                .value
+                .trim();
+
+
+        var eventDescription =
+            document
+                .getElementById("EventDescription")
+                .value
+                .trim();
+
+
+        var instagramLink =
+            document
+                .getElementById("InstagramLink")
+                .value
+                .trim();
+
+
+        var facebookLink =
+            document
+                .getElementById("FacebookLink")
+                .value
+                .trim();
+
+
+        var websiteLink =
+            document
+                .getElementById("WebsiteLink")
+                .value
+                .trim();
+
+
+        var posterLink =
+            document
+                .getElementById("PosterLink")
+                .value
+                .trim();
+
+
+
+        if(eventEndDate == ""){
+
+
+            eventEndDate =
+                "Not provided";
+
+
+        }else{
+
+
+            eventEndDate =
+                formatEventDate(eventEndDate);
+
+
+        }
+
+
+
+        if(eventEndTime == ""){
+
+
+            eventEndTime =
+                "Not provided";
+
+
+        }else{
+
+
+            eventEndTime =
+                formatEventTime(eventEndTime);
+
+
+        }
+
+
+
+        if(instagramLink == ""){
+
+
+            instagramLink =
+                "Not provided";
+
+
+        }
+
+
+        if(facebookLink == ""){
+
+
+            facebookLink =
+                "Not provided";
+
+
+        }
+
+
+        if(websiteLink == ""){
+
+
+            websiteLink =
+                "Not provided";
+
+
+        }
+
+
+        if(posterLink == ""){
+
+
+            posterLink =
+                "Not provided";
+
+
+        }
+
+
+
+        /* ========================================
+           WHATSAPP NUMBER
+        ======================================== */
+
+        var whatsappNumber =
+            "601161758840";
+
+
+
+        /* ========================================
+           WHATSAPP MESSAGE
+        ======================================== */
+
+        var whatsappMessage =
+
+            "━━━━━━━━━━━━━━━━━━━━━━\n" +
+
+            "WXNDSH\n" +
+
+            "NEW EVENT SUBMISSION\n" +
+
+            "━━━━━━━━━━━━━━━━━━━━━━\n\n" +
+
+
+            "📌 EVENT NAME\n" +
+
+            eventName +
+
+            "\n\n" +
+
+
+            "🎭 CATEGORY\n" +
+
+            eventCategory +
+
+            "\n\n" +
+
+
+            "📍 LOCATION\n" +
+
+            eventLocation +
+
+            "\n\n" +
+
+
+            "📅 EVENT DATE\n" +
+
+            formatEventDate(eventDate) +
+
+            "\n\n" +
+
+
+            "📅 EVENT END DATE\n" +
+
+            eventEndDate +
+
+            "\n\n" +
+
+
+            "🕒 START TIME\n" +
+
+            formatEventTime(eventStartTime) +
+
+            "\n\n" +
+
+
+            "🕒 END TIME\n" +
+
+            eventEndTime +
+
+            "\n\n" +
+
+
+            "🏢 ORGANISER\n" +
+
+            organiserName +
+
+            "\n\n" +
+
+
+            "👤 CONTACT PERSON\n" +
+
+            contactPerson +
+
+            "\n\n" +
+
+
+            "📞 PHONE NUMBER\n" +
+
+            contactPhone +
+
+            "\n\n" +
+
+
+            "📧 EMAIL ADDRESS\n" +
+
+            contactEmail +
+
+            "\n\n" +
+
+
+            "📝 EVENT DESCRIPTION\n" +
+
+            eventDescription +
+
+            "\n\n" +
+
+
+            "📸 INSTAGRAM LINK\n" +
+
+            instagramLink +
+
+            "\n\n" +
+
+
+            "📘 FACEBOOK LINK\n" +
+
+            facebookLink +
+
+            "\n\n" +
+
+
+            "🌐 WEBSITE LINK\n" +
+
+            websiteLink +
+
+            "\n\n" +
+
+
+            "🖼️ EVENT POSTER LINK\n" +
+
+            posterLink +
+
+            "\n\n" +
+
+
+            "━━━━━━━━━━━━━━━━━━━━━━\n" +
+
+            "Submitted from WXNDSH Website\n" +
+
+            "━━━━━━━━━━━━━━━━━━━━━━";
+
+
+
+        var whatsappUrl =
+
+            "https://wa.me/" +
+
+            whatsappNumber +
+
+            "?text=" +
+
+            encodeURIComponent(
+                whatsappMessage
+            );
+
+
+
+        createEventFormMessage.innerHTML =
+            "Opening WhatsApp...";
+
+
+
+        window.open(
+
+            whatsappUrl,
+
+            "_blank"
+
+        );
+
+
+    };
+
+
+
+    /* ========================================
+       LANGUAGE ELEMENTS
+    ======================================== */
+
+    var languageButton =
+        document.getElementById("LanguageButton");
+
+    var languageFlag =
+        document.getElementById("LanguageFlag");
+
+    var languageText =
+        document.getElementById("LanguageText");
+
+
+    var homeText =
+        document.getElementById("HomeText");
+
+    var savedText =
+        document.getElementById("SavedText");
+
+    var aboutText =
+        document.getElementById("AboutText");
+
+    var contactText =
+        document.getElementById("ContactText");
+
+    var createEventText =
+        document.getElementById("CreateEventText");
+
+
+    var createBannerSmallText =
+        document.getElementById("CreateBannerSmallText");
+
+    var createBannerHeading =
+        document.getElementById("CreateBannerHeading");
+
+    var createBannerDescription =
+        document.getElementById("CreateBannerDescription");
+
+    var createLabelText =
+        document.getElementById("CreateLabelText");
+
+    var submitYourText =
+        document.getElementById("SubmitYourText");
+
+    var eventScriptText =
+        document.getElementById("EventScriptText");
+
+    var createHeadingDescription =
+        document.getElementById("CreateHeadingDescription");
+
+
+    var eventInformationHeading =
+        document.getElementById("EventInformationHeading");
+
+    var organiserInformationHeading =
+        document.getElementById("OrganiserInformationHeading");
+
+    var eventDetailsHeading =
+        document.getElementById("EventDetailsHeading");
+
+
+    var submitEventButtonText =
+        document.getElementById("SubmitEventButtonText");
+
+    var agreementText =
+        document.getElementById("AgreementText");
+
+
+    var followUsText =
+        document.getElementById("FollowUsText");
+
+    var helpFeedbackText =
+        document.getElementById("HelpFeedbackText");
+
+    var footerContactText =
+        document.getElementById("FooterContactText");
+
+    var footerCreateHeading =
+        document.getElementById("FooterCreateHeading");
+
+    var footerCreateText =
+        document.getElementById("FooterCreateText");
+
+
+    var currentLanguage =
+        "EN";
+
+
+
+    /* ========================================
+       LANGUAGE BUTTON
+    ======================================== */
+
+    languageButton.onclick = function(){
+
+
+        if(currentLanguage == "EN"){
+
+
+            languageFlag.src =
+                "img/malay flag.png";
+
+            languageText.innerHTML =
+                "BM";
+
+
+            homeText.innerHTML =
+                "Laman Utama";
+
+            savedText.innerHTML =
+                "Acara Disimpan";
+
+            aboutText.innerHTML =
+                "Tentang Kami";
+
+            contactText.innerHTML =
+                "Hubungi Kami";
+
+            createEventText.innerHTML =
+                "Cipta Acara";
+
+
+            createBannerSmallText.innerHTML =
+                "KONGSI ACARA ANDA";
+
+            createBannerHeading.innerHTML =
+                "CIPTA ACARA ANDA";
+
+            createBannerDescription.innerHTML =
+                "Lengkapkan borang di bawah dan hantar maklumat acara anda terus ke WhatsApp kami.";
+
+
+            createLabelText.innerHTML =
+                "MULA SEKARANG";
+
+            submitYourText.innerHTML =
+                "Hantar";
+
+            eventScriptText.innerHTML =
+                "Acara Anda";
+
+            createHeadingDescription.innerHTML =
+                "Isi semua maklumat yang diperlukan. Permohonan acara anda akan disediakan sebagai mesej WhatsApp.";
+
+
+            eventInformationHeading.innerHTML =
+                "MAKLUMAT ACARA";
+
+            organiserInformationHeading.innerHTML =
+                "MAKLUMAT PENGANJUR";
+
+            eventDetailsHeading.innerHTML =
+                "BUTIRAN ACARA";
+
+
+            submitEventButtonText.innerHTML =
+                "HANTAR PERMOHONAN ACARA";
+
+            agreementText.innerHTML =
+                "Saya mengesahkan bahawa semua maklumat yang diberikan adalah betul dan saya mempunyai kebenaran untuk menghantar acara ini.";
+
+
+            followUsText.innerHTML =
+                "IKUTI KAMI";
+
+            helpFeedbackText.innerHTML =
+                "BANTUAN DAN MAKLUM BALAS";
+
+            footerContactText.innerHTML =
+                "HUBUNGI KAMI &#8599;";
+
+            footerCreateHeading.innerHTML =
+                "CIPTA ACARA ANDA";
+
+            footerCreateText.innerHTML =
+                "CIPTA ACARA";
+
+
+            currentLanguage =
+                "BM";
+
+
+        }else{
+
+
+            languageFlag.src =
+                "img/uk flag.png";
+
+            languageText.innerHTML =
+                "EN";
+
+
+            homeText.innerHTML =
+                "Home";
+
+            savedText.innerHTML =
+                "Saved Events";
+
+            aboutText.innerHTML =
+                "About Us";
+
+            contactText.innerHTML =
+                "Contact Us";
+
+            createEventText.innerHTML =
+                "Create Event";
+
+
+            createBannerSmallText.innerHTML =
+                "SHARE YOUR EVENT";
+
+            createBannerHeading.innerHTML =
+                "CREATE YOUR EVENT";
+
+            createBannerDescription.innerHTML =
+                "Complete the form below and send your event information directly to our WhatsApp.";
+
+
+            createLabelText.innerHTML =
+                "GET STARTED";
+
+            submitYourText.innerHTML =
+                "Submit Your";
+
+            eventScriptText.innerHTML =
+                "Event";
+
+            createHeadingDescription.innerHTML =
+                "Fill in all the required information. Your event request will be prepared as a WhatsApp message.";
+
+
+            eventInformationHeading.innerHTML =
+                "EVENT INFORMATION";
+
+            organiserInformationHeading.innerHTML =
+                "ORGANISER INFORMATION";
+
+            eventDetailsHeading.innerHTML =
+                "EVENT DETAILS";
+
+
+            submitEventButtonText.innerHTML =
+                "SEND EVENT REQUEST";
+
+            agreementText.innerHTML =
+                "I confirm that all information provided is correct and I have permission to submit this event.";
+
+
+            followUsText.innerHTML =
+                "FOLLOW US ON";
+
+            helpFeedbackText.innerHTML =
+                "HELP AND FEEDBACK";
+
+            footerContactText.innerHTML =
+                "CONTACT US &#8599;";
+
+            footerCreateHeading.innerHTML =
+                "CREATE YOUR EVENT";
+
+            footerCreateText.innerHTML =
+                "CREATE EVENT";
+
+
+            currentLanguage =
+                "EN";
+
+
+        }
+
+
+    };
+
+
+</script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,1059 @@
+/* ========================================
+   CREATE EVENT PAGE
+======================================== */
+
+
+/* ========================================
+   MAIN BOX
+======================================== */
+
+#KotakBesar{
+    width:100%;
+}
+
+
+/* ========================================
+   ACTIVE CREATE EVENT BUTTON
+======================================== */
+
+#CreateEvent a.ActiveCreateEvent{
+    background-color:#0d198c;
+}
+
+
+/* ========================================
+   CREATE EVENT BANNER
+======================================== */
+
+#CreateEventBanner{
+    position:relative;
+
+    width:100%;
+    height:430px;
+
+    margin:0px auto;
+
+    overflow:hidden;
+
+    background-image:
+        url("../img/banner\ create.png");
+
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+
+/* ========================================
+   CREATE EVENT BANNER OVERLAY
+======================================== */
+
+#CreateEventBannerOverlay{
+    position:absolute;
+
+    top:0px;
+    left:0px;
+
+    z-index:1;
+
+    width:100%;
+    height:100%;
+
+    background-color:
+        rgba(0, 10, 38, 0.52);
+}
+
+
+/* ========================================
+   CREATE EVENT BANNER TEXT
+======================================== */
+
+#CreateEventBannerText{
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    z-index:2;
+
+    width:760px;
+
+    text-align:center;
+
+    color:white;
+
+    transform:
+        translate(-50%, -50%);
+}
+
+
+/* SMALL BANNER TEXT */
+
+#CreateBannerSmallText{
+    margin:
+        0px
+        0px
+        12px
+        0px;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:15px;
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+
+/* LARGE BANNER TEXT */
+
+#CreateBannerHeading{
+    margin:
+        0px
+        0px
+        18px
+        0px;
+
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:58px;
+    font-weight:700;
+
+    line-height:68px;
+}
+
+
+/* BANNER DESCRIPTION */
+
+#CreateBannerDescription{
+    width:610px;
+
+    margin:0px auto;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+
+    line-height:23px;
+}
+
+
+/* ========================================
+   CREATE EVENT HEADING SECTION
+======================================== */
+
+#CreateEventHeadingSection{
+    width:100%;
+
+    padding:
+        72px
+        0px
+        75px
+        0px;
+
+    background-color:white;
+
+    box-sizing:border-box;
+}
+
+
+/* ========================================
+   CREATE EVENT HEADING CONTENT
+======================================== */
+
+#CreateEventHeadingLabel,
+#CreateEventMainHeading{
+    width:1320px;
+
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* ========================================
+   CREATE EVENT HEADING LABEL
+======================================== */
+
+#CreateEventHeadingLabel{
+    display:flex;
+
+    justify-content:flex-start;
+}
+
+
+/* LABEL TEXT */
+
+#CreateEventHeadingLabel span{
+    display:inline-block;
+
+    min-width:175px;
+
+    padding:
+        10px
+        25px;
+
+    background-color:#dfe3ff;
+    color:#1727b5;
+
+    text-align:center;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:12px;
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    box-sizing:border-box;
+}
+
+
+/* ========================================
+   CREATE EVENT MAIN HEADING
+======================================== */
+
+#CreateEventMainHeading{
+    margin-top:15px;
+}
+
+
+/* MAIN HEADING */
+
+#CreateEventMainHeading h1{
+    margin:0px;
+
+    display:flex;
+    align-items:center;
+
+    font-weight:normal;
+}
+
+
+/* SUBMIT YOUR TEXT */
+
+#SubmitYourText{
+    color:#080a87;
+
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:58px;
+    font-weight:400;
+
+    line-height:72px;
+}
+
+
+/* EVENT SCRIPT TEXT */
+
+#EventScriptText{
+    margin-left:20px;
+
+    color:#f2bb00;
+
+    font-family:'Allison', cursive;
+    font-size:84px;
+    font-weight:400;
+
+    line-height:72px;
+}
+
+
+/* HEADING LINE */
+
+#CreateHeadingLine{
+    width:405px;
+    height:4px;
+
+    margin-top:8px;
+
+    background-color:#080a87;
+}
+
+
+/* HEADING DESCRIPTION */
+
+#CreateHeadingDescription{
+    width:650px;
+
+    margin:
+        22px
+        0px
+        0px
+        0px;
+
+    color:#555555;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+
+    line-height:23px;
+}
+
+
+/* ========================================
+   CREATE EVENT FORM SECTION
+======================================== */
+
+#CreateEventFormSection{
+    width:100%;
+
+    padding:
+        90px
+        0px
+        110px
+        0px;
+
+    border-top:4px solid #dedee8;
+
+    background-color:#f5f5fa;
+
+    box-sizing:border-box;
+}
+
+
+/* ========================================
+   CREATE EVENT FORM
+======================================== */
+
+#CreateEventForm{
+    width:1100px;
+
+    margin:0px auto;
+}
+
+
+/* ========================================
+   CREATE FORM CARD
+======================================== */
+
+.CreateFormCard{
+    margin-bottom:45px;
+
+    padding:
+        36px
+        40px
+        42px
+        40px;
+
+    border:1px solid #d8d8e0;
+    border-radius:18px;
+
+    background-color:white;
+
+    box-shadow:
+        0px
+        8px
+        22px
+        rgba(0,0,0,0.08);
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0px, 1fr));
+
+    column-gap:28px;
+    row-gap:24px;
+
+    box-sizing:border-box;
+}
+
+
+/* ========================================
+   CREATE FORM CARD HEADING
+======================================== */
+
+.CreateFormCardHeading{
+    grid-column:
+        1
+        / 3;
+
+    display:flex;
+    align-items:center;
+}
+
+
+/* HEADING ICON */
+
+.CreateFormCardHeading i{
+    width:48px;
+    height:48px;
+
+    margin-right:14px;
+
+    border-radius:50%;
+
+    background-color:#1727b5;
+    color:white;
+
+    text-align:center;
+
+    font-size:20px;
+    line-height:48px;
+}
+
+
+/* HEADING TEXT */
+
+.CreateFormCardHeading h2{
+    margin:0px;
+
+    color:#111111;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:18px;
+    font-weight:700;
+
+    letter-spacing:2px;
+}
+
+
+/* ========================================
+   CREATE FORM DIVIDER
+======================================== */
+
+.CreateFormDivider{
+    grid-column:
+        1
+        / 3;
+
+    height:1px;
+
+    margin-bottom:5px;
+
+    background-color:#e1e1e8;
+}
+
+
+/* ========================================
+   CREATE FORM GROUP
+======================================== */
+
+.CreateFormGroup{
+    width:100%;
+}
+
+
+/* FULL WIDTH FORM GROUP */
+
+.CreateFormFullWidth{
+    grid-column:
+        1
+        / 3;
+}
+
+
+/* ========================================
+   FORM LABEL
+======================================== */
+
+.CreateFormGroup label{
+    display:block;
+
+    margin-bottom:9px;
+
+    color:#222222;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:13px;
+    font-weight:600;
+}
+
+
+/* REQUIRED SYMBOL */
+
+.CreateFormGroup label span{
+    color:#d62828;
+}
+
+
+/* ========================================
+   FORM INPUTS
+======================================== */
+
+.CreateFormGroup input,
+.CreateFormGroup select,
+.CreateFormGroup textarea{
+    width:100%;
+
+    padding:
+        14px
+        15px;
+
+    border:1px solid #ccccd6;
+    border-radius:10px;
+
+    outline:none;
+
+    background-color:#ffffff;
+    color:#111111;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+
+    box-sizing:border-box;
+
+    transition:
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
+}
+
+
+/* TEXTAREA */
+
+.CreateFormGroup textarea{
+    min-height:160px;
+
+    resize:vertical;
+
+    line-height:22px;
+}
+
+
+/* SELECT */
+
+.CreateFormGroup select{
+    cursor:pointer;
+}
+
+
+/* PLACEHOLDER */
+
+.CreateFormGroup input::placeholder,
+.CreateFormGroup textarea::placeholder{
+    color:#999999;
+}
+
+
+/* FORM INPUT FOCUS */
+
+.CreateFormGroup input:focus,
+.CreateFormGroup select:focus,
+.CreateFormGroup textarea:focus{
+    border-color:#1727b5;
+
+    background-color:#fbfbff;
+
+    box-shadow:
+        0px
+        0px
+        0px
+        4px
+        rgba(23,39,181,0.10);
+}
+
+
+/* ========================================
+   AGREEMENT
+======================================== */
+
+#CreateEventAgreement{
+    display:flex;
+    align-items:flex-start;
+
+    width:100%;
+
+    margin:
+        10px
+        0px
+        24px
+        0px;
+
+    padding:
+        20px
+        22px;
+
+    border:1px solid #d8d8e0;
+    border-radius:12px;
+
+    background-color:white;
+
+    box-sizing:border-box;
+}
+
+
+/* AGREEMENT CHECKBOX */
+
+#AgreementCheckbox{
+    width:18px;
+    height:18px;
+
+    margin:
+        2px
+        12px
+        0px
+        0px;
+
+    accent-color:#1727b5;
+
+    cursor:pointer;
+}
+
+
+/* AGREEMENT TEXT */
+
+#AgreementText{
+    color:#444444;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:13px;
+    font-weight:400;
+
+    line-height:21px;
+
+    cursor:pointer;
+}
+
+
+/* ========================================
+   FORM MESSAGE
+======================================== */
+
+#CreateEventFormMessage{
+    min-height:22px;
+
+    margin:
+        0px
+        0px
+        18px
+        0px;
+
+    color:#1727b5;
+
+    text-align:center;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:14px;
+    font-weight:600;
+}
+
+
+/* ========================================
+   SUBMIT EVENT BUTTON
+======================================== */
+
+#CreateEventSubmit{
+    text-align:center;
+}
+
+
+/* SUBMIT BUTTON */
+
+#SubmitEventButton{
+    min-width:270px;
+
+    padding:
+        17px
+        30px;
+
+    border:0px;
+    border-radius:16px;
+
+    background-color:#1727b5;
+    color:white;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:13px;
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    cursor:pointer;
+
+    box-shadow:
+        0px
+        8px
+        18px
+        rgba(23,39,181,0.20);
+
+    transition:
+        background-color 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+
+/* BUTTON ICON */
+
+#SubmitEventButton i{
+    margin-left:10px;
+
+    font-size:20px;
+
+    vertical-align:middle;
+}
+
+
+/* SUBMIT BUTTON HOVER */
+
+#SubmitEventButton:hover{
+    background-color:#0d198c;
+
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        0px
+        12px
+        22px
+        rgba(23,39,181,0.26);
+}
+
+
+/* SUBMIT BUTTON ACTIVE */
+
+#SubmitEventButton:active{
+    transform:
+        translateY(0px)
+        scale(0.98);
+}
+
+
+/* ========================================
+   BACK TO TOP
+======================================== */
+
+#BackToTop{
+    background-color:#080a87;
+    color:white;
+}
+
+
+/* ========================================
+   SMALL LAPTOP SCREEN
+======================================== */
+
+@media screen and (max-width:1250px){
+
+
+    #CreateEventHeadingLabel,
+    #CreateEventMainHeading{
+        width:calc(100% - 80px);
+    }
+
+
+    #CreateEventForm{
+        width:calc(100% - 100px);
+    }
+
+
+}
+
+
+/* ========================================
+   TABLET SCREEN
+======================================== */
+
+@media screen and (max-width:900px){
+
+
+    #CreateEventBanner{
+        height:370px;
+    }
+
+
+    #CreateEventBannerText{
+        width:calc(100% - 80px);
+    }
+
+
+    #CreateBannerHeading{
+        font-size:47px;
+        line-height:58px;
+    }
+
+
+    #CreateBannerDescription{
+        width:100%;
+    }
+
+
+    #CreateEventHeadingSection{
+        padding:
+            58px
+            0px
+            62px
+            0px;
+    }
+
+
+    #CreateEventHeadingLabel,
+    #CreateEventMainHeading{
+        width:calc(100% - 60px);
+    }
+
+
+    #SubmitYourText{
+        font-size:48px;
+        line-height:62px;
+    }
+
+
+    #EventScriptText{
+        font-size:72px;
+        line-height:62px;
+    }
+
+
+    #CreateHeadingDescription{
+        width:100%;
+        max-width:620px;
+    }
+
+
+    #CreateEventFormSection{
+        padding:
+            70px
+            0px
+            90px
+            0px;
+    }
+
+
+    #CreateEventForm{
+        width:calc(100% - 60px);
+    }
+
+
+    .CreateFormCard{
+        padding:
+            30px
+            30px
+            35px
+            30px;
+    }
+
+
+}
+
+
+/* ========================================
+   MOBILE SCREEN
+======================================== */
+
+@media screen and (max-width:650px){
+
+
+    #CreateEventBanner{
+        height:320px;
+    }
+
+
+    #CreateEventBannerText{
+        width:calc(100% - 40px);
+    }
+
+
+    #CreateBannerSmallText{
+        font-size:12px;
+        letter-spacing:4px;
+    }
+
+
+    #CreateBannerHeading{
+        font-size:37px;
+        line-height:47px;
+    }
+
+
+    #CreateBannerDescription{
+        font-size:13px;
+        line-height:21px;
+    }
+
+
+    #CreateEventHeadingSection{
+        padding:
+            48px
+            0px
+            50px
+            0px;
+    }
+
+
+    #CreateEventHeadingLabel,
+    #CreateEventMainHeading{
+        width:calc(100% - 40px);
+    }
+
+
+    #CreateEventHeadingLabel span{
+        min-width:150px;
+
+        padding:
+            9px
+            18px;
+
+        font-size:11px;
+    }
+
+
+    #CreateEventMainHeading h1{
+        display:block;
+    }
+
+
+    #SubmitYourText{
+        display:inline-block;
+
+        font-size:39px;
+        line-height:53px;
+    }
+
+
+    #EventScriptText{
+        display:inline-block;
+
+        margin-left:8px;
+
+        font-size:59px;
+        line-height:53px;
+    }
+
+
+    #CreateHeadingLine{
+        width:270px;
+        height:3px;
+    }
+
+
+    #CreateHeadingDescription{
+        margin-top:18px;
+
+        font-size:13px;
+        line-height:21px;
+    }
+
+
+    #CreateEventFormSection{
+        padding:
+            55px
+            0px
+            70px
+            0px;
+    }
+
+
+    #CreateEventForm{
+        width:calc(100% - 32px);
+    }
+
+
+    .CreateFormCard{
+        margin-bottom:32px;
+
+        padding:
+            25px
+            20px
+            28px
+            20px;
+
+        grid-template-columns:
+            minmax(0px, 1fr);
+
+        column-gap:0px;
+        row-gap:20px;
+
+        border-radius:14px;
+    }
+
+
+    .CreateFormCardHeading,
+    .CreateFormDivider,
+    .CreateFormFullWidth{
+        grid-column:
+            1
+            / 2;
+    }
+
+
+    .CreateFormCardHeading i{
+        width:43px;
+        height:43px;
+
+        margin-right:11px;
+
+        font-size:18px;
+        line-height:43px;
+    }
+
+
+    .CreateFormCardHeading h2{
+        font-size:15px;
+        letter-spacing:1px;
+    }
+
+
+    .CreateFormGroup input,
+    .CreateFormGroup select,
+    .CreateFormGroup textarea{
+        padding:
+            13px
+            13px;
+
+        font-size:13px;
+    }
+
+
+    #CreateEventAgreement{
+        padding:
+            17px
+            17px;
+    }
+
+
+    #SubmitEventButton{
+        width:100%;
+
+        min-width:0px;
+    }
+
+
+}
+
+
+/* ========================================
+   SMALL MOBILE SCREEN
+======================================== */
+
+@media screen and (max-width:400px){
+
+
+    #CreateEventBanner{
+        height:285px;
+    }
+
+
+    #CreateBannerHeading{
+        font-size:31px;
+        line-height:40px;
+    }
+
+
+    #SubmitYourText{
+        font-size:33px;
+        line-height:46px;
+    }
+
+
+    #EventScriptText{
+        margin-left:5px;
+
+        font-size:51px;
+        line-height:46px;
+    }
+
+
+    #CreateHeadingLine{
+        width:230px;
+    }
+
+
+    .CreateFormCard{
+        padding:
+            22px
+            16px
+            25px
+            16px;
+    }
+
+
+}

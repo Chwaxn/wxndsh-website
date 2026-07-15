@@ -1,0 +1,2796 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        WXNDSH
+    </title>
+
+
+    <link
+        href="css/stylewebsite.css"
+        type="text/css"
+        rel="stylesheet"
+    >
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+
+
+<body>
+
+
+<!-- ========================================
+     MAIN CONTENT
+======================================== -->
+
+<div id="KotakBesar">
+
+
+    <!-- ========================================
+         HEADER
+    ========================================= -->
+
+    <div id="Header">
+
+
+        <div id="Logo">
+
+            <img
+                src="img/logo.png"
+                alt="WXNDSH Logo"
+            >
+
+            <span>
+                WXNDSH
+            </span>
+
+        </div>
+
+
+
+        <div id="Menu">
+
+            <a
+                href="index.html"
+                id="HomeText"
+            >
+                Home
+            </a>
+
+
+            <a
+                href="savedevents.html"
+                id="SavedText"
+            >
+                Saved Events
+            </a>
+
+
+            <a
+                href="aboutus.html"
+                id="AboutText"
+            >
+                About Us
+            </a>
+
+
+            <a
+                href="contactus.html"
+                id="ContactText"
+            >
+                Contact Us
+            </a>
+
+        </div>
+
+
+
+        <div id="HeaderRight">
+
+
+            <div id="Language">
+
+                <button
+                    type="button"
+                    id="LanguageButton"
+                >
+
+                    <img
+                        src="img/uk flag.png"
+                        id="LanguageFlag"
+                        alt="Language"
+                    >
+
+                </button>
+
+
+                <span id="LanguageText">
+                    EN
+                </span>
+
+            </div>
+
+
+
+            <div id="CreateEvent">
+
+                <a
+                    href="create.html"
+                    id="CreateEventText"
+                >
+                    Create Event
+                </a>
+
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+
+        <div class="Clear"></div>
+
+    </div>
+
+
+
+    <!-- ========================================
+         BANNER SLIDER
+    ========================================= -->
+
+   <div id="Banner">
+
+
+    <div id="BannerText">
+
+
+        <h1 id="BannerHeading">
+            Experience<br>
+            Unforgettable<br>
+            Moments
+        </h1>
+
+
+        <p id="BannerDescription">
+            Find the best events, concerts, exhibitions and
+            competitions happening near you.
+        </p>
+
+
+        <a
+            href="#CategorySection"
+            id="ExploreEventsText"
+        >
+            Explore Events
+        </a>
+
+
+    </div>
+
+
+
+    <div id="ArrowLeft">
+
+        <a
+            href="#"
+            id="PreviousSlide"
+            aria-label="Previous slide"
+        >
+            &#10094;
+        </a>
+
+    </div>
+
+
+
+    <div id="ArrowRight">
+
+        <a
+            href="#"
+            id="NextSlide"
+            aria-label="Next slide"
+        >
+            &#10095;
+        </a>
+
+    </div>
+
+
+
+    <div id="SliderDot">
+
+        <span class="SlideDot ActiveDot"></span>
+
+        <span class="SlideDot"></span>
+
+        <span class="SlideDot"></span>
+
+        <span class="SlideDot"></span>
+
+    </div>
+
+
+</div>
+
+
+
+    <!-- ========================================
+         EVENT CATEGORIES
+    ========================================= -->
+
+    <div id="CategorySection">
+
+<!-- ALL EVENTS -->
+
+<button
+    type="button"
+    class="CategoryButton ActiveCategory"
+    data-category="all"
+>
+
+    <img
+        src="img/logo folder.png"
+        alt="All Events Logo"
+    >
+
+<span id="AllEventsText">
+    All Events
+</span>
+
+    <strong>
+        &#8250;
+    </strong>
+
+</button>
+
+
+        <!-- ENTERTAINMENT -->
+
+        <button
+            type="button"
+            class="CategoryButton"
+            data-category="entertainment"
+        >
+
+            <img
+                src="img/logo tangan 3.png"
+                alt="Entertainment Logo"
+            >
+
+<span id="EntertainmentText">
+    Entertainment
+</span>
+
+            <strong>
+                &#8250;
+            </strong>
+
+        </button>
+
+
+
+        <!-- SPORTS -->
+
+        <button
+            type="button"
+            class="CategoryButton"
+            data-category="sport"
+        >
+
+            <img
+                src="img/logo kasut.png"
+                alt="Sports Logo"
+            >
+
+<span id="SportsText">
+    Sports
+</span>
+
+            <strong>
+                &#8250;
+            </strong>
+
+        </button>
+
+
+
+        <!-- TRAVEL -->
+
+        <button
+            type="button"
+            class="CategoryButton"
+            data-category="travel"
+        >
+
+            <img
+                src="img/logo travel.png"
+                alt="Travel Logo"
+            >
+
+<span id="TravelText">
+    Travel
+</span>
+
+            <strong>
+                &#8250;
+            </strong>
+
+        </button>
+
+
+
+        <!-- SEMINAR -->
+
+        <button
+            type="button"
+            class="CategoryButton"
+            data-category="seminar"
+        >
+
+            <img
+                src="img/logo mic.png"
+                alt="Seminar Logo"
+            >
+
+<span id="SeminarText">
+    Seminar
+</span>
+
+            <strong>
+                &#8250;
+            </strong>
+
+        </button>
+
+
+
+        <!-- EXHIBITIONS -->
+
+        <button
+            type="button"
+            class="CategoryButton"
+            data-category="exhibitions"
+        >
+
+            <img
+                src="img/logo exhibit.png"
+                alt="Exhibitions Logo"
+            >
+
+<span id="ExhibitionsText">
+    Exhibitions
+</span>
+
+            <strong>
+                &#8250;
+            </strong>
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         UPCOMING EVENTS TITLE
+    ========================================= -->
+
+    <div id="UpcomingHeading">
+
+<h1 id="UpcomingEventsText">
+    Upcoming Events
+</h1>
+
+    </div>
+
+
+
+    <!-- ========================================
+         EVENT CARDS
+    ========================================= -->
+
+    <div id="EventList">
+
+
+    <!-- EVENT 1 -->
+
+<div
+    class="EventCard"
+    data-event-id="event-1"
+    data-category="entertainment"
+>
+
+        <img
+            class="EventImage"
+            src="img/konsert.jpeg"
+            alt="Aishah Concert"
+        >
+
+
+        <div class="EventContent">
+
+
+            <p class="EventCategory">
+                Entertainment
+            </p>
+
+
+<!-- ========================================
+     SAVE EVENT BUTTON
+======================================== -->
+
+<button
+    type="button"
+    class="SaveIcon"
+    aria-label="Save event"
+    title="Save event"
+>
+    +
+</button>
+
+
+            <h2>
+                Aishah 40 Chapters of Love
+            </h2>
+
+
+            <h3>
+                Mega Star Arena KL
+            </h3>
+
+
+            <p class="EventInfo">
+                 <i class="fa-solid fa-calendar-days"></i>
+                 4 July 2026 / Saturday
+            </p>
+
+
+            <p class="EventInfo">
+                <i class="fa-regular fa-clock"></i>
+                8:00 PM
+            </p>
+
+
+            <div class="MoreButton">
+
+<a
+    href="more.html?id=event-1"
+    class="MoreText"
+>
+    MORE
+</a>
+
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- EVENT 2 -->
+
+<div
+    class="EventCard"
+    data-event-id="event-2"
+    data-category="sport"
+>
+
+        <img
+            class="EventImage"
+            src="img/EVENT 2.jpg"
+            alt="Honkai Star Rail"
+        >
+
+
+        <div class="EventContent">
+
+
+            <p class="EventCategory Sport">
+                Sport
+            </p>
+
+
+<!-- ========================================
+     SAVE EVENT BUTTON
+======================================== -->
+
+<button
+    type="button"
+    class="SaveIcon"
+    aria-label="Save event"
+    title="Save event"
+>
+    +
+</button>
+
+
+            <h2>
+                Honkai: Star Rail - Run to Elation
+            </h2>
+
+
+            <h3>
+                Sunway Square Mall
+            </h3>
+
+
+            <p class="EventInfo">
+                <i class="fa-solid fa-calendar-days"></i>
+                3 May 2026 / Sunday
+            </p>
+
+
+            <p class="EventInfo">
+                <i class="fa-regular fa-clock"></i>
+                7:00 AM
+            </p>
+
+
+            <div class="MoreButton">
+
+<a
+    href="more.html?id=event-2"
+    class="MoreText"
+>
+    MORE
+</a>
+
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- EVENT 3 -->
+
+<div
+    class="EventCard"
+    data-event-id="event-3"
+    data-category="entertainment"
+>
+        <img
+            class="EventImage CircusImage"
+            src="img/EVENT 3.jpeg"
+            alt="Great British Circus"
+        >
+
+
+        <div class="EventContent">
+
+
+            <p class="EventCategory">
+                Entertainment
+            </p>
+
+
+<!-- ========================================
+     SAVE EVENT BUTTON
+======================================== -->
+
+<button
+    type="button"
+    class="SaveIcon"
+    aria-label="Save event"
+    title="Save event"
+>
+    +
+</button>
+
+            <h2>
+                Great British Circus
+            </h2>
+
+
+            <h3>
+                Dataran Perayaan Petra Jaya, Kuching
+            </h3>
+
+
+            <p class="EventInfo">
+                <i class="fa-solid fa-calendar-days"></i>
+                20 March - 26 April 2026
+            </p>
+
+
+            <p class="EventInfo">
+                <i class="fa-regular fa-clock"></i>
+                8:00 PM
+            </p>
+
+
+            <div class="MoreButton">
+
+<a
+    href="more.html?id=event-3"
+    class="MoreText"
+>
+    MORE
+</a>
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+    </div>
+
+
+
+           <!-- EVENT 4 -->
+
+<div
+    class="EventCard"
+    data-event-id="event-4"
+    data-category="entertainment"
+>
+
+        <img
+            class="EventImage"
+            src="img/event 4.jpeg"
+            alt="Tzi Xuan Fanmeeting"
+        >
+
+
+        <div class="EventContent">
+
+
+            <p class="EventCategory">
+                Entertainment
+            </p>
+
+
+<!-- ========================================
+     SAVE EVENT BUTTON
+======================================== -->
+
+<button
+    type="button"
+    class="SaveIcon"
+    aria-label="Save event"
+    title="Save event"
+>
+    +
+</button>
+
+
+            <h2>
+                Tzi Xuan Fanmeeting
+            </h2>
+
+
+            <h3>
+                Mega Star Arena KL
+            </h3>
+
+
+            <p class="EventInfo">
+                <i class="fa-solid fa-calendar-days"></i>
+                19 April 2026 / Sunday
+            </p>
+
+
+            <p class="EventInfo">
+                <i class="fa-regular fa-clock"></i>
+                11:00 AM
+            </p>
+
+
+            <div class="MoreButton">
+
+<a
+    href="more.html?id=event-4"
+    class="MoreText"
+>
+    MORE
+</a>
+
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- EVENT 5 -->
+
+<div
+    class="EventCard"
+    data-event-id="event-5"
+    data-category="seminar"
+>
+
+        <img
+            class="EventImage"
+            src="img/event 5.jpg"
+            alt="HajiKids"
+        >
+
+
+        <div class="EventContent">
+
+
+            <p class="EventCategory Seminar">
+                Seminar
+            </p>
+
+
+<!-- ========================================
+     SAVE EVENT BUTTON
+======================================== -->
+
+<button
+    type="button"
+    class="SaveIcon"
+    aria-label="Save event"
+    title="Save event"
+>
+    +
+</button>
+
+
+            <h2>
+                HajiKids 2.0
+            </h2>
+
+
+            <h3>
+                IDCC Ideal Convention Centre Shah Alam
+            </h3>
+
+
+            <p class="EventInfo">
+                <i class="fa-solid fa-calendar-days"></i>
+                16 May 2026 / Saturday
+            </p>
+
+
+            <p class="EventInfo">
+                <i class="fa-regular fa-clock"></i>
+                7:00 AM
+            </p>
+
+
+            <div class="MoreButton">
+
+<a
+    href="more.html?id=event-5"
+    class="MoreText"
+>
+    MORE
+</a>
+
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- EVENT 6 -->
+
+<div
+    class="EventCard"
+    data-event-id="event-6"
+    data-category="entertainment"
+>
+
+        <img
+            class="EventImage"
+            src="img/EVENT 6.jpeg"
+            alt="Asmaraloka"
+        >
+
+
+        <div class="EventContent">
+
+
+            <p class="EventCategory">
+                Entertainment
+            </p>
+
+
+<!-- ========================================
+     SAVE EVENT BUTTON
+======================================== -->
+
+<button
+    type="button"
+    class="SaveIcon"
+    aria-label="Save event"
+    title="Save event"
+>
+    +
+</button>
+
+
+            <h2>
+                Asmaraloka 2026
+            </h2>
+
+
+            <h3>
+                Ipoh Convention Centre
+            </h3>
+
+
+            <p class="EventInfo">
+                <i class="fa-solid fa-calendar-days"></i>
+                4 July 2026 / Saturday
+            </p>
+
+
+            <p class="EventInfo">
+                <i class="fa-regular fa-clock"></i>
+                8:00 PM
+            </p>
+
+
+            <div class="MoreButton">
+
+<a
+    href="more.html?id=event-6"
+    class="MoreText"
+>
+    MORE
+</a>
+
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+    </div>
+
+                <!-- EVENT 7 -->
+
+<div
+    class="EventCard ExtraEvent"
+    data-event-id="event-7"
+    data-category="exhibitions"
+>
+
+        <img
+            class="EventImage"
+            src="img/event 7.jpg"
+            alt="NCT Dress Up Parade 2026"
+        >
+
+
+        <div class="EventContent">
+
+
+            <p class="EventCategory Exhibitions">
+                Exhibitions
+            </p>
+
+
+<!-- ========================================
+     SAVE EVENT BUTTON
+======================================== -->
+
+<button
+    type="button"
+    class="SaveIcon"
+    aria-label="Save event"
+    title="Save event"
+>
+    +
+</button>
+
+
+            <h2>
+                NCT Dress Up Parade 2026
+            </h2>
+
+
+            <h3>
+                Hextar World at Empire City
+            </h3>
+
+
+            <p class="EventInfo">
+                <i class="fa-solid fa-calendar-days"></i>
+                18 - 19 July 2026
+            </p>
+
+
+            <p class="EventInfo">
+                <i class="fa-regular fa-clock"></i>
+                12:00 PM
+            </p>
+
+
+            <div class="MoreButton">
+
+<a
+    href="more.html?id=event-7"
+    class="MoreText"
+>
+    MORE
+</a>
+
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- EVENT 8 -->
+
+<div
+    class="EventCard ExtraEvent"
+    data-event-id="event-8"
+    data-category="travel"
+>
+
+        <img
+            class="EventImage"
+            src="img/event 8.jpg"
+            alt="WindMill Fun Park Semenyih"
+        >
+
+
+        <div class="EventContent">
+
+
+            <p class="EventCategory Travel">
+                Travel
+            </p>
+
+
+<!-- ========================================
+     SAVE EVENT BUTTON
+======================================== -->
+
+<button
+    type="button"
+    class="SaveIcon"
+    aria-label="Save event"
+    title="Save event"
+>
+    +
+</button>
+
+
+            <h2>
+                WindMill Fun Park (Semenyih)
+            </h2>
+
+
+            <h3>
+                WindMill Fun Park
+            </h3>
+
+
+            <p class="EventInfo">
+                <i class="fa-solid fa-calendar-days"></i>
+                19 November 2025 - 31 December 2026
+            </p>
+
+
+            <p class="EventInfo">
+                <i class="fa-regular fa-clock"></i>
+                5:00 PM - 11:00 PM
+            </p>
+
+
+            <div class="MoreButton">
+
+<a
+    href="more.html?id=event-8"
+    class="MoreText"
+>
+    MORE
+</a>
+
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- EVENT 9 -->
+
+<div
+    class="EventCard ExtraEvent"
+    data-event-id="event-9"
+    data-category="travel"
+>
+
+        <img
+            class="EventImage CircusImage"
+            src="img/event 9.jpeg"
+            alt="Sarawak Cultural Village"
+        >
+
+
+        <div class="EventContent">
+
+
+            <p class="EventCategory Travel">
+                Travel
+            </p>
+
+
+<!-- ========================================
+     SAVE EVENT BUTTON
+======================================== -->
+
+<button
+    type="button"
+    class="SaveIcon"
+    aria-label="Save event"
+    title="Save event"
+>
+    +
+</button>
+
+
+            <h2>
+                Sarawak Cultural Village
+            </h2>
+
+
+            <h3>
+                Sarawak Cultural Village
+            </h3>
+
+
+            <p class="EventInfo">
+                <i class="fa-solid fa-calendar-days"></i>
+                1 April - 31 August 2026
+            </p>
+
+
+            <p class="EventInfo">
+                <i class="fa-regular fa-clock"></i>
+                9:00 AM
+            </p>
+
+
+            <div class="MoreButton">
+
+<a
+    href="more.html?id=event-9"
+    class="MoreText"
+>
+    MORE
+</a>
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<!-- ========================================
+     NO EVENTS MESSAGE
+======================================== -->
+
+<div id="NoEventsMessage">
+
+    <h2>
+        No Events Available
+    </h2>
+
+</div>
+
+
+
+    <!-- ========================================
+         SEE MORE
+    ========================================= -->
+
+<div id="SeeMore">
+
+<a
+    href="#"
+    id="SeeMoreButton"
+>
+    SEE MORE EVENTS
+</a>
+
+</div>
+
+
+
+
+
+    <!-- ========================================
+         ADVERTISEMENT
+    ========================================= -->
+
+    <div id="Advertisement">
+
+
+        <div id="AdvertisementText">
+
+
+<h1 id="AdvertisementHeading">
+    Advertise Your Event with Us!
+</h1>
+
+
+<p id="AdvertisementDescription">
+    Reach thousands of people and make your
+    event a success.
+</p>
+
+
+<a
+    href="create.html"
+    id="AdvertisementButtonText"
+>
+    Create Event
+</a>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<!-- ========================================
+     BACK TO TOP
+======================================== -->
+
+<button
+    type="button"
+    id="BackToTop"
+    aria-label="Back to top"
+>
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+
+<!-- ========================================
+     NEWSLETTER
+======================================== -->
+
+<div id="Newsletter">
+
+
+    <div id="NewsletterContent">
+
+
+        <img
+            src="img/logo.png"
+            alt="WXNDSH Logo"
+        >
+
+
+<h1 id="StayConnectedText">
+
+    STAY CONNECT
+
+    <span id="WithUsText">
+        WITH US!
+    </span>
+
+</h1>
+
+
+
+<form id="SubscribeForm">
+
+    <div id="Subscribe">
+
+        <input
+            type="email"
+            id="SubscribeEmail"
+            name="email"
+            placeholder="EMAIL ADDRESS"
+            required
+        >
+
+<button
+    type="submit"
+    id="SubscribeButton"
+>
+    SUBSCRIBE
+</button>
+
+    </div>
+
+</form>
+
+
+<p id="SubscribeMessage"></p>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- ========================================
+     FOOTER
+======================================== -->
+
+<div id="Footer">
+
+
+    <div id="FooterLogo">
+
+        <img
+            src="img/LOGO 2 TRANSPARENT.png"
+            alt="WXNDSH Logo"
+        >
+
+    </div>
+
+
+
+    <div id="SocialMedia">
+
+
+<h3 id="FollowUsText">
+    FOLLOW US ON
+</h3>
+
+
+        <div class="SocialIcons">
+
+
+            <a href="https://x.com/">
+
+                <img
+                    src="img/logo x remove.png"
+                    alt="X"
+                >
+
+            </a>
+
+
+            <a href="https://www.instagram.com/wxndsh/">
+
+                <img
+                    src="img/logo ig remove.png"
+                    alt="Instagram"
+                >
+
+            </a>
+
+
+            <a href="https://www.tiktok.com/@wxndssh">
+
+                <img
+                    src="img/logo tiktok remove.png"
+                    alt="TikTok"
+                >
+
+            </a>
+
+
+            <a href="https://www.youtube.com/@bobversiMalaysia">
+
+                <img
+                    src="img/logo yt remove.png"
+                    alt="YouTube"
+                >
+
+            </a>
+
+
+            <a href="https://www.facebook.com/profile.php?id=100069882215740">
+
+                <img
+                    src="img/logo facebook remove.png"
+                    alt="Facebook"
+                >
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <div id="FooterContact">
+
+
+<h3 id="HelpFeedbackText">
+    HELP AND FEEDBACK
+</h3>
+
+<a
+    href="contactus.html"
+    id="FooterContactText"
+>
+    CONTACT US &#8599;
+</a>
+
+
+    </div>
+
+
+
+    <div id="FooterCreate">
+
+
+<h3 id="FooterCreateHeading">
+    CREATE YOUR EVENT
+</h3>
+
+
+<a
+    href="create.html"
+    id="FooterCreateText"
+>
+    CREATE EVENT
+</a>
+
+
+    </div>
+
+
+    <div class="Clear"></div>
+
+
+</div>
+
+
+
+<!-- ========================================
+     JAVASCRIPT
+======================================== -->
+
+<script type="text/javascript">
+
+    /* ========================================
+   BACK TO TOP
+======================================== */
+
+var backToTop =
+    document.getElementById("BackToTop");
+
+
+window.addEventListener("scroll", function(){
+
+
+    if(
+        document.body.scrollTop > 400 ||
+        document.documentElement.scrollTop > 400
+    ){
+
+
+        backToTop.classList.add(
+            "ShowBackToTop"
+        );
+
+
+    }else{
+
+
+        backToTop.classList.remove(
+            "ShowBackToTop"
+        );
+
+
+    }
+
+
+});
+
+
+backToTop.onclick = function(){
+
+
+    window.scrollTo({
+
+        top:0,
+
+        behavior:"smooth"
+
+    });
+
+
+};
+
+
+    /* ========================================
+       LANGUAGE BUTTON
+    ======================================== */
+
+    var languageButton =
+        document.getElementById("LanguageButton");
+
+    var languageFlag =
+        document.getElementById("LanguageFlag");
+
+    var languageText =
+        document.getElementById("LanguageText");
+
+
+    var homeText =
+        document.getElementById("HomeText");
+
+    var savedText =
+        document.getElementById("SavedText");
+
+    var aboutText =
+        document.getElementById("AboutText");
+
+    var contactText =
+        document.getElementById("ContactText");
+
+    var createEventText =
+        document.getElementById("CreateEventText");
+
+        var bannerHeading =
+    document.getElementById("BannerHeading");
+
+var bannerDescription =
+    document.getElementById("BannerDescription");
+
+var exploreEventsText =
+    document.getElementById("ExploreEventsText");
+
+var allEventsText =
+    document.getElementById("AllEventsText");
+
+var entertainmentText =
+    document.getElementById("EntertainmentText");
+
+var sportsText =
+    document.getElementById("SportsText");
+
+var travelText =
+    document.getElementById("TravelText");
+
+var seminarText =
+    document.getElementById("SeminarText");
+
+var exhibitionsText =
+    document.getElementById("ExhibitionsText");
+
+var upcomingEventsText =
+    document.getElementById("UpcomingEventsText");
+
+var seeMoreButton =
+    document.getElementById("SeeMoreButton");
+
+var advertisementHeading =
+    document.getElementById("AdvertisementHeading");
+
+var advertisementDescription =
+    document.getElementById("AdvertisementDescription");
+
+var advertisementButtonText =
+    document.getElementById("AdvertisementButtonText");
+
+var stayConnectedText =
+    document.getElementById("StayConnectedText");
+
+var withUsText =
+    document.getElementById("WithUsText");
+
+var subscribeButton =
+    document.getElementById("SubscribeButton");
+
+var followUsText =
+    document.getElementById("FollowUsText");
+
+var helpFeedbackText =
+    document.getElementById("HelpFeedbackText");
+
+var footerContactText =
+    document.getElementById("FooterContactText");
+
+var footerCreateHeading =
+    document.getElementById("FooterCreateHeading");
+
+var footerCreateText =
+    document.getElementById("FooterCreateText");
+
+var moreText =
+    document.getElementsByClassName("MoreText");
+
+
+    var currentLanguage = "EN";
+
+
+    languageButton.onclick = function(){
+
+
+        if(currentLanguage == "EN"){
+
+
+            languageFlag.src =
+                "img/malay flag.png";
+
+            languageText.innerHTML =
+                "BM";
+
+
+            homeText.innerHTML =
+                "Laman Utama";
+
+            savedText.innerHTML =
+                "Acara Disimpan";
+
+            aboutText.innerHTML =
+                "Tentang Kami";
+
+            contactText.innerHTML =
+                "Hubungi Kami";
+
+            createEventText.innerHTML =
+                "Cipta Acara";
+
+                
+
+                bannerHeading.innerHTML =
+    "Cipta<br>Kenangan<br>Yang Bermakna";
+
+bannerDescription.innerHTML =
+    "Temui acara, konsert, pameran dan pertandingan terbaik yang berlangsung berhampiran anda.";
+
+exploreEventsText.innerHTML =
+    "Terokai Acara";
+
+allEventsText.innerHTML =
+    "Semua Acara";
+
+entertainmentText.innerHTML =
+    "Hiburan";
+
+sportsText.innerHTML =
+    "Sukan";
+
+travelText.innerHTML =
+    "Pelancongan";
+
+seminarText.innerHTML =
+    "Seminar";
+
+exhibitionsText.innerHTML =
+    "Pameran";
+
+upcomingEventsText.innerHTML =
+    "Acara Akan Datang";
+
+seeMoreButton.innerHTML =
+    "LIHAT LAGI ACARA";
+
+advertisementHeading.innerHTML =
+    "Promosikan Acara Anda Bersama Kami!";
+
+advertisementDescription.innerHTML =
+    "Capai ribuan pengguna dan jadikan acara anda lebih berjaya.";
+
+advertisementButtonText.innerHTML =
+    "Cipta Acara";
+
+stayConnectedText.childNodes[0].nodeValue =
+    "KEKAL BERHUBUNG ";
+
+withUsText.innerHTML =
+    "BERSAMA KAMI!";
+
+subscribeButton.innerHTML =
+    "LANGGAN";
+
+followUsText.innerHTML =
+    "IKUTI KAMI";
+
+helpFeedbackText.innerHTML =
+    "BANTUAN DAN MAKLUM BALAS";
+
+footerContactText.innerHTML =
+    "HUBUNGI KAMI &#8599;";
+
+footerCreateHeading.innerHTML =
+    "CIPTA ACARA ANDA";
+
+footerCreateText.innerHTML =
+    "CIPTA ACARA";
+    
+    for(var i = 0; i < moreText.length; i++){
+
+    moreText[i].innerHTML =
+        "BUTIRAN";
+
+}
+
+
+            currentLanguage =
+                "BM";
+
+
+        }else{
+
+
+            languageFlag.src =
+                "img/uk flag.png";
+
+            languageText.innerHTML =
+                "EN";
+
+
+            homeText.innerHTML =
+                "Home";
+
+            savedText.innerHTML =
+                "Saved Events";
+
+            aboutText.innerHTML =
+                "About Us";
+
+            contactText.innerHTML =
+                "Contact Us";
+
+            createEventText.innerHTML =
+                "Create Event";
+
+
+
+
+                bannerHeading.innerHTML =
+    "Experience<br>Unforgettable<br>Moments";
+
+bannerDescription.innerHTML =
+    "Find the best events, concerts, exhibitions and competitions happening near you.";
+
+exploreEventsText.innerHTML =
+    "Explore Events";
+
+allEventsText.innerHTML =
+    "All Events";
+
+entertainmentText.innerHTML =
+    "Entertainment";
+
+sportsText.innerHTML =
+    "Sports";
+
+travelText.innerHTML =
+    "Travel";
+
+seminarText.innerHTML =
+    "Seminar";
+
+exhibitionsText.innerHTML =
+    "Exhibitions";
+
+upcomingEventsText.innerHTML =
+    "Upcoming Events";
+
+seeMoreButton.innerHTML =
+    "SEE MORE EVENTS";
+
+advertisementHeading.innerHTML =
+    "Advertise Your Event with Us!";
+
+advertisementDescription.innerHTML =
+    "Reach thousands of people and make your event a success.";
+
+advertisementButtonText.innerHTML =
+    "Create Event";
+
+stayConnectedText.childNodes[0].nodeValue =
+    "STAY CONNECT ";
+
+withUsText.innerHTML =
+    "WITH US!";
+
+subscribeButton.innerHTML =
+    "SUBSCRIBE";
+
+followUsText.innerHTML =
+    "FOLLOW US ON";
+
+helpFeedbackText.innerHTML =
+    "HELP AND FEEDBACK";
+
+footerContactText.innerHTML =
+    "CONTACT US &#8599;";
+
+footerCreateHeading.innerHTML =
+    "CREATE YOUR EVENT";
+
+footerCreateText.innerHTML =
+    "CREATE EVENT";
+
+    for(var i = 0; i < moreText.length; i++){
+
+    moreText[i].innerHTML =
+        "MORE";
+
+}
+
+            currentLanguage =
+                "EN";
+        }
+
+
+    };
+
+
+
+    /* ========================================
+       BANNER SLIDER
+    ======================================== */
+
+    var banner =
+        document.getElementById("Banner");
+
+    var bannerText =
+        document.getElementById("BannerText");
+
+    var previousSlide =
+        document.getElementById("PreviousSlide");
+
+    var nextSlide =
+        document.getElementById("NextSlide");
+
+    var slideDots =
+        document.getElementsByClassName("SlideDot");
+
+
+
+    var bannerImages = [
+
+        "img/dato mnasir2.png",
+
+        "img/shila amzah.png",
+
+        "img/konsert salleh.png",
+
+        "img/dato siti.png"
+
+    ];
+
+
+
+    var currentSlide = 0;
+
+    var autoSlide;
+
+    var slideIsMoving = false;
+
+
+
+    /* SEMAK SLIDE YANG MEMPUNYAI TEKS */
+
+    function slideHasText(slideNumber){
+
+
+        if(slideNumber == 1 || slideNumber == 3){
+
+            return false;
+
+        }else{
+
+            return true;
+
+        }
+
+
+    }
+
+
+
+    /* KEMAS KINI SLIDER DOT */
+
+    function updateDots(){
+
+
+        for(var i = 0; i < slideDots.length; i++){
+
+            slideDots[i].classList.remove("ActiveDot");
+
+        }
+
+
+        slideDots[currentSlide].classList.add("ActiveDot");
+
+
+    }
+
+
+
+    /* TUKAR SLIDE */
+
+    function showSlide(slideNumber, direction){
+
+
+        if(slideIsMoving == true){
+
+            return;
+
+        }
+
+
+        slideIsMoving = true;
+
+
+
+        if(slideNumber >= bannerImages.length){
+
+            slideNumber = 0;
+
+        }
+
+
+        if(slideNumber < 0){
+
+            slideNumber = bannerImages.length - 1;
+
+        }
+
+
+
+        /*
+           TEKS FADE KELUAR DAHULU
+        */
+
+        bannerText.classList.add("HideBannerText");
+
+
+
+        setTimeout(function(){
+
+
+            var newSlide =
+                document.createElement("div");
+
+
+            newSlide.className =
+                "BannerSlideLayer";
+
+
+            newSlide.style.backgroundImage =
+                "url('" + bannerImages[slideNumber] + "')";
+
+
+
+            if(direction == "left"){
+
+                newSlide.classList.add("SlideFromLeft");
+
+            }else{
+
+                newSlide.classList.add("SlideFromRight");
+
+            }
+
+
+
+            banner.appendChild(newSlide);
+
+
+
+            /*
+               PAKSA BROWSER MEMBACA
+               KEDUDUKAN PERMULAAN
+            */
+
+            newSlide.offsetWidth;
+
+
+
+            /*
+               MULAKAN ANIMASI GAMBAR
+            */
+
+            newSlide.classList.add("SlideActive");
+
+
+
+            setTimeout(function(){
+
+
+                currentSlide =
+                    slideNumber;
+
+
+                banner.style.backgroundImage =
+                    "url('" + bannerImages[currentSlide] + "')";
+
+
+                newSlide.remove();
+
+
+                updateDots();
+
+
+
+                /*
+                   TUNJUK TEKS HANYA PADA
+                   SLIDE DATO M NASIR DAN
+                   KONSERT SALLEH
+                */
+
+                setTimeout(function(){
+
+
+                    if(slideHasText(currentSlide) == true){
+
+                        bannerText.classList.remove(
+                            "HideBannerText"
+                        );
+
+                    }else{
+
+                        bannerText.classList.add(
+                            "HideBannerText"
+                        );
+
+                    }
+
+
+                    slideIsMoving = false;
+
+
+                }, 200);
+
+
+            }, 700);
+
+
+        }, 350);
+
+
+    }
+
+
+
+    /* SLIDE SETERUSNYA */
+
+    function nextBanner(){
+
+        showSlide(
+            currentSlide + 1,
+            "right"
+        );
+
+    }
+
+
+
+    /* SLIDE SEBELUMNYA */
+
+    function previousBanner(){
+
+        showSlide(
+            currentSlide - 1,
+            "left"
+        );
+
+    }
+
+
+
+    /* AUTO SLIDE */
+
+    function startAutoSlide(){
+
+
+        autoSlide = setInterval(function(){
+
+            nextBanner();
+
+        }, 5000);
+
+
+    }
+
+
+
+    /* MULAKAN SEMULA AUTO SLIDE */
+
+    function restartAutoSlide(){
+
+
+        clearInterval(autoSlide);
+
+        startAutoSlide();
+
+
+    }
+
+
+
+    /* BUTTON NEXT */
+
+    nextSlide.onclick = function(event){
+
+
+        event.preventDefault();
+
+
+        nextBanner();
+
+        restartAutoSlide();
+
+
+    };
+
+
+
+    /* BUTTON PREVIOUS */
+
+    previousSlide.onclick = function(event){
+
+
+        event.preventDefault();
+
+
+        previousBanner();
+
+        restartAutoSlide();
+
+
+    };
+
+
+
+    /* TEKAN SLIDER DOT */
+
+    for(let i = 0; i < slideDots.length; i++){
+
+
+        slideDots[i].onclick = function(){
+
+
+            if(slideIsMoving == true){
+
+                return;
+
+            }
+
+
+            if(i > currentSlide){
+
+                showSlide(i, "right");
+
+            }else if(i < currentSlide){
+
+                showSlide(i, "left");
+
+            }
+
+
+            restartAutoSlide();
+
+
+        };
+
+
+    }
+
+
+
+    /* PAPARKAN SLIDE PERTAMA */
+
+    banner.style.backgroundImage =
+        "url('" + bannerImages[0] + "')";
+
+
+    bannerText.classList.remove(
+        "HideBannerText"
+    );
+
+
+    updateDots();
+
+    startAutoSlide();
+
+
+/* ========================================
+   SEE MORE EVENTS
+======================================== */
+
+var seeMoreButton =
+    document.getElementById("SeeMoreButton");
+
+var extraEvents =
+    document.getElementsByClassName("ExtraEvent");
+
+var seeMoreOpened =
+    false;
+
+
+seeMoreButton.onclick = function(event){
+
+
+    event.preventDefault();
+
+
+    if(seeMoreOpened == false){
+
+
+        for(var i = 0; i < extraEvents.length; i++){
+
+
+            /*
+               BUANG DISPLAY DARIPADA FILTER
+            */
+
+            extraEvents[i].style.display =
+                "";
+
+
+            extraEvents[i].classList.add(
+                "Show"
+            );
+
+
+        }
+
+
+        seeMoreButton.innerHTML =
+            "SHOW LESS";
+
+
+        seeMoreOpened =
+            true;
+
+
+    }else{
+
+
+        for(var i = 0; i < extraEvents.length; i++){
+
+
+            extraEvents[i].style.display =
+                "";
+
+
+            extraEvents[i].classList.remove(
+                "Show"
+            );
+
+
+        }
+
+
+        seeMoreButton.innerHTML =
+            "SEE MORE EVENTS";
+
+
+        seeMoreOpened =
+            false;
+
+
+        document
+            .getElementById("UpcomingHeading")
+            .scrollIntoView({
+
+                behavior:"smooth"
+
+            });
+
+
+    }
+
+
+};
+
+
+
+/* ========================================
+   CATEGORY FILTER
+======================================== */
+
+var categoryButtons =
+    document.getElementsByClassName("CategoryButton");
+
+var eventCards =
+    document.getElementsByClassName("EventCard");
+
+var noEventsMessage =
+    document.getElementById("NoEventsMessage");
+
+
+
+function resetSeeMore(){
+
+
+    seeMoreOpened =
+        false;
+
+
+    seeMoreButton.innerHTML =
+        "SEE MORE EVENTS";
+
+
+    for(var i = 0; i < extraEvents.length; i++){
+
+
+        extraEvents[i].classList.remove(
+            "Show"
+        );
+
+
+        extraEvents[i].style.display =
+            "";
+
+
+    }
+
+
+}
+
+
+
+function showAllNormalEvents(){
+
+
+    resetSeeMore();
+
+
+    noEventsMessage.style.display =
+        "none";
+
+
+    seeMoreButton.style.display =
+        "inline-block";
+
+
+    for(var i = 0; i < eventCards.length; i++){
+
+
+        eventCards[i].style.display =
+            "";
+
+
+    }
+
+
+}
+
+
+
+function filterEvents(category){
+
+
+    resetSeeMore();
+
+
+    var visibleEventCount =
+        0;
+
+
+    for(var i = 0; i < eventCards.length; i++){
+
+
+        var eventCategory =
+            eventCards[i].getAttribute(
+                "data-category"
+            );
+
+
+        if(eventCategory == category){
+
+
+            eventCards[i].style.display =
+                "block";
+
+
+            visibleEventCount++;
+
+
+        }else{
+
+
+            eventCards[i].style.display =
+                "none";
+
+
+        }
+
+
+    }
+
+
+    if(visibleEventCount == 0){
+
+
+        noEventsMessage.style.display =
+            "block";
+
+
+    }else{
+
+
+        noEventsMessage.style.display =
+            "none";
+
+
+    }
+
+
+    seeMoreButton.style.display =
+        "none";
+
+
+}
+
+
+
+for(let i = 0; i < categoryButtons.length; i++){
+
+
+    categoryButtons[i].onclick = function(){
+
+
+        var clickedCategory =
+            this.getAttribute(
+                "data-category"
+            );
+
+
+        for(var j = 0; j < categoryButtons.length; j++){
+
+
+            categoryButtons[j].classList.remove(
+                "ActiveCategory"
+            );
+
+
+        }
+
+
+        this.classList.add(
+            "ActiveCategory"
+        );
+
+
+        if(clickedCategory == "all"){
+
+
+            showAllNormalEvents();
+
+
+        }else{
+
+
+            filterEvents(
+                clickedCategory
+            );
+
+
+        }
+
+
+    };
+
+
+}
+
+
+/* ========================================
+   SAVE EVENTS
+======================================== */
+
+var saveEventButtons =
+    document.getElementsByClassName("SaveIcon");
+
+
+var savedEvents =
+    JSON.parse(
+        localStorage.getItem("wxndshSavedEvents")
+    ) || [];
+
+
+
+/* ========================================
+   CHECK EVENT ALREADY SAVED
+======================================== */
+
+function eventAlreadySaved(eventId){
+
+
+    for(var i = 0; i < savedEvents.length; i++){
+
+
+        if(savedEvents[i].id == eventId){
+
+
+            return true;
+
+
+        }
+
+
+    }
+
+
+    return false;
+
+
+}
+
+
+
+/* ========================================
+   GET EVENT INFORMATION
+======================================== */
+
+function getEventInformation(eventCard){
+
+
+    var eventImage =
+        eventCard.querySelector(".EventImage");
+
+    var eventCategory =
+        eventCard.querySelector(".EventCategory");
+
+    var eventTitle =
+        eventCard.querySelector("h2");
+
+    var eventLocation =
+        eventCard.querySelector("h3");
+
+    var eventInformation =
+        eventCard.querySelectorAll(".EventInfo");
+
+
+    return {
+
+        id:
+            eventCard.getAttribute(
+                "data-event-id"
+            ),
+
+        category:
+            eventCard.getAttribute(
+                "data-category"
+            ),
+
+        categoryText:
+            eventCategory.textContent.trim(),
+
+        categoryClass:
+            eventCategory.className,
+
+        image:
+            eventImage.getAttribute("src"),
+
+        imageAlt:
+            eventImage.getAttribute("alt"),
+
+        imageClass:
+            eventImage.className,
+
+        title:
+            eventTitle.textContent.trim(),
+
+        location:
+            eventLocation.textContent.trim(),
+
+        date:
+            eventInformation[0].textContent.trim(),
+
+        time:
+            eventInformation[1].textContent.trim()
+
+    };
+
+
+}
+
+
+
+/* ========================================
+   UPDATE SAVE BUTTON
+======================================== */
+
+function updateSaveButton(saveButton, isSaved){
+
+
+    if(isSaved == true){
+
+
+        saveButton.innerHTML =
+            '<i class="fa-solid fa-check"></i>';
+
+
+        saveButton.classList.add(
+            "EventSaved"
+        );
+
+
+        saveButton.setAttribute(
+            "aria-label",
+            "Event saved"
+        );
+
+
+        saveButton.setAttribute(
+            "title",
+            "Event saved"
+        );
+
+
+    }else{
+
+
+        saveButton.innerHTML =
+            "+";
+
+
+        saveButton.classList.remove(
+            "EventSaved"
+        );
+
+
+        saveButton.setAttribute(
+            "aria-label",
+            "Save event"
+        );
+
+
+        saveButton.setAttribute(
+            "title",
+            "Save event"
+        );
+
+
+    }
+
+
+}
+
+
+
+/* ========================================
+   DISPLAY CURRENT SAVED STATUS
+======================================== */
+
+function displaySavedStatus(){
+
+
+    for(var i = 0; i < saveEventButtons.length; i++){
+
+
+        var eventCard =
+            saveEventButtons[i].closest(
+                ".EventCard"
+            );
+
+
+        var eventId =
+            eventCard.getAttribute(
+                "data-event-id"
+            );
+
+
+        updateSaveButton(
+
+            saveEventButtons[i],
+
+            eventAlreadySaved(eventId)
+
+        );
+
+
+    }
+
+
+}
+
+
+
+/* ========================================
+   SAVE EVENT BUTTON CLICK
+======================================== */
+
+for(var i = 0; i < saveEventButtons.length; i++){
+
+
+    saveEventButtons[i].onclick = function(){
+
+
+        var selectedButton =
+            this;
+
+
+        var selectedCard =
+            selectedButton.closest(
+                ".EventCard"
+            );
+
+
+        var selectedEvent =
+            getEventInformation(
+                selectedCard
+            );
+
+
+        if(eventAlreadySaved(selectedEvent.id) == false){
+
+
+            savedEvents.push(
+                selectedEvent
+            );
+
+
+            localStorage.setItem(
+
+                "wxndshSavedEvents",
+
+                JSON.stringify(savedEvents)
+
+            );
+
+
+            updateSaveButton(
+                selectedButton,
+                true
+            );
+
+
+        }else{
+
+
+            for(var j = 0; j < savedEvents.length; j++){
+
+
+                if(savedEvents[j].id == selectedEvent.id){
+
+
+                    savedEvents.splice(
+                        j,
+                        1
+                    );
+
+
+                    break;
+
+
+                }
+
+
+            }
+
+
+            localStorage.setItem(
+
+                "wxndshSavedEvents",
+
+                JSON.stringify(savedEvents)
+
+            );
+
+
+            updateSaveButton(
+                selectedButton,
+                false
+            );
+
+
+        }
+
+
+    };
+
+
+}
+
+
+
+/* ========================================
+   CHECK SAVED EVENTS WHEN PAGE LOADS
+======================================== */
+
+displaySavedStatus();
+
+/* ========================================
+   NEWSLETTER SUBSCRIBE
+======================================== */
+
+var subscribeForm =
+    document.getElementById("SubscribeForm");
+
+var subscribeEmail =
+    document.getElementById("SubscribeEmail");
+
+var subscribeMessage =
+    document.getElementById("SubscribeMessage");
+
+
+subscribeForm.onsubmit = function(event){
+
+
+    event.preventDefault();
+
+
+    if(subscribeEmail.value.trim() == ""){
+
+
+        subscribeMessage.innerHTML =
+            "Please enter your email address.";
+
+        return;
+
+
+    }
+
+
+    subscribeMessage.innerHTML =
+        "Thank you for subscribing!";
+
+
+    subscribeEmail.value =
+        "";
+
+
+};
+
+</script>
+
+
+</body>
+
+
+</html>

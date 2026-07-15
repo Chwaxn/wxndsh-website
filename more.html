@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+
+    <!-- ========================================
+         BASIC PAGE SETTINGS
+    ========================================= -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+
+    <!-- ========================================
+         PAGE TITLE
+    ========================================= -->
+
+    <title>Event Details | WXNDSH</title>
+
+
+    <!-- ========================================
+         PAGE ICON
+    ========================================= -->
+
+    <link
+        rel="icon"
+        type="image/logo.png"
+        href="img/WXNDSH LOGO.png"
+    >
+
+
+    <!-- ========================================
+         GOOGLE FONT
+    ========================================= -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- ========================================
+         EVENT DETAILS CSS
+    ========================================= -->
+
+    <link
+        rel="stylesheet"
+        href="css/stylemore.css"
+    >
+
+
+</head>
+
+
+<body>
+
+
+ <!-- ========================================
+     HEADER
+======================================== -->
+
+<div id="Header">
+
+
+    <!-- ========================================
+         LOGO AND BRAND NAME
+    ========================================= -->
+
+    <div id="Logo">
+
+
+        <a
+            href="index.html"
+            aria-label="Go to WXNDSH homepage"
+        >
+
+
+            <img
+                src="img/logo.png"
+                alt="WXNDSH Logo"
+            >
+
+
+            <span>
+                WXNDSH
+            </span>
+
+
+        </a>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         NAVIGATION MENU
+    ========================================= -->
+
+    <div id="Menu">
+
+
+        <a
+            href="index.html"
+            id="HomeText"
+            data-en="Home"
+            data-ms="Laman Utama"
+        >
+            Home
+        </a>
+
+
+        <a
+            href="savedevents.html"
+            id="SavedText"
+            data-en="Saved Events"
+            data-ms="Event Disimpan"
+        >
+            Saved Events
+        </a>
+
+
+        <a
+            href="aboutus.html"
+            id="AboutText"
+            data-en="About Us"
+            data-ms="Tentang Kami"
+        >
+            About Us
+        </a>
+
+
+        <a
+            href="contactus.html"
+            id="ContactText"
+            data-en="Contact Us"
+            data-ms="Hubungi Kami"
+        >
+            Contact Us
+        </a>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         HEADER RIGHT
+    ========================================= -->
+
+    <div id="HeaderRight">
+
+
+        <!-- ========================================
+             LANGUAGE SWITCH
+        ========================================= -->
+
+        <div id="Language">
+
+
+            <button
+                type="button"
+                id="LanguageButton"
+                aria-label="Change website language"
+            >
+
+
+                <img
+                    src="img/uk flag.png"
+                    id="LanguageFlag"
+                    alt="Language"
+                >
+
+
+            </button>
+
+
+            <span id="LanguageText">
+                EN
+            </span>
+
+
+        </div>
+
+
+
+        <!-- ========================================
+             CREATE EVENT BUTTON
+        ========================================= -->
+
+        <div id="CreateEvent">
+
+
+            <a
+                href="create.html"
+                id="CreateEventText"
+                data-en="Create Event"
+                data-ms="Cipta Event"
+            >
+                Create Event
+            </a>
+
+
+        </div>
+
+
+
+        <!-- ========================================
+             CLEAR FLOAT
+        ========================================= -->
+
+        <div class="Clear"></div>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         CLEAR FLOAT
+    ========================================= -->
+
+    <div class="Clear"></div>
+
+
+</div>
+
+
+    <!-- ========================================
+         EVENT DETAILS MAIN SECTION
+    ========================================= -->
+
+    <main id="EventDetailsMain">
+
+
+        <!-- ========================================
+             EVENT DETAILS CONTAINER
+        ========================================= -->
+
+        <div id="EventDetailsContainer">
+
+
+            <!-- ========================================
+                 EVENT BANNER
+            ========================================= -->
+
+            <section
+                id="EventBannerSection"
+                aria-label="Event banner"
+            >
+
+
+                <img
+                    src="img/event-placeholder.jpg"
+                    alt="Event Banner"
+                    id="EventBannerImage"
+                >
+
+
+            </section>
+
+
+
+            <!-- ========================================
+                 EVENT CONTENT SECTION
+            ========================================= -->
+
+            <section id="EventContentSection">
+
+
+                <!-- ========================================
+                     EVENT MAIN CONTENT
+                ========================================= -->
+
+                <div id="EventMainContent">
+
+
+                    <!-- ========================================
+                         EVENT CATEGORY
+                    ========================================= -->
+
+                    <div
+                        id="EventCategory"
+                        data-category="sport"
+                    >
+                        SPORT
+                    </div>
+
+
+
+                    <!-- ========================================
+                         EVENT TITLE
+                    ========================================= -->
+
+                    <h1 id="EventTitle">
+                        Event Title
+                    </h1>
+
+
+
+                    <!-- ========================================
+                         TITLE DECORATION LINE
+                    ========================================= -->
+
+                    <div id="EventTitleLine"></div>
+
+
+
+                    <!-- ========================================
+                         EVENT DESCRIPTION
+                    ========================================= -->
+
+                    <p id="EventDescription">
+                        Event description will appear here. The information
+                        shown on this page will change automatically based on
+                        the event selected by the user.
+                    </p>
+
+
+                </div>
+
+
+
+                <!-- ========================================
+                     EVENT INFORMATION CARD
+                ========================================= -->
+
+                <aside
+                    id="EventInformationCard"
+                    aria-label="Event information"
+                >
+
+
+                    <!-- ========================================
+                         INFORMATION CARD TITLE
+                    ========================================= -->
+
+                    <h2
+                        id="EventInformationTitle"
+                        data-en="Event Information"
+                        data-ms="Maklumat Event"
+                    >
+                        Event Information
+                    </h2>
+
+
+
+                    <!-- ========================================
+                         INFORMATION TITLE LINE
+                    ========================================= -->
+
+                    <div class="InformationDivider"></div>
+
+
+
+                    <!-- ========================================
+                         EVENT LOCATION
+                    ========================================= -->
+
+                    <div class="EventInformationItem">
+
+
+                        <h3
+                            data-en="Location"
+                            data-ms="Lokasi"
+                        >
+                            Location
+                        </h3>
+
+
+                        <p id="EventLocation">
+                            Event Location
+                        </p>
+
+
+                    </div>
+
+
+
+                    <!-- ========================================
+                         INFORMATION DIVIDER
+                    ========================================= -->
+
+                    <div class="InformationDivider"></div>
+
+
+
+                    <!-- ========================================
+                         EVENT DATE
+                    ========================================= -->
+
+                    <div class="EventInformationItem">
+
+
+                        <h3
+                            data-en="Date"
+                            data-ms="Tarikh"
+                        >
+                            Date
+                        </h3>
+
+
+                        <p id="EventDate">
+                            Event Date
+                        </p>
+
+
+                    </div>
+
+
+
+                    <!-- ========================================
+                         INFORMATION DIVIDER
+                    ========================================= -->
+
+                    <div class="InformationDivider"></div>
+
+
+
+                    <!-- ========================================
+                         EVENT TIME
+                    ========================================= -->
+
+                    <div class="EventInformationItem">
+
+
+                        <h3
+                            data-en="Time"
+                            data-ms="Masa"
+                        >
+                            Time
+                        </h3>
+
+
+                        <p id="EventTime">
+                            Event Time
+                        </p>
+
+
+                    </div>
+
+
+
+                    <!-- ========================================
+                         INFORMATION DIVIDER
+                    ========================================= -->
+
+                    <div class="InformationDivider"></div>
+
+
+
+                    <!-- ========================================
+                         EVENT ORGANISER
+                    ========================================= -->
+
+                    <div class="EventInformationItem">
+
+
+                        <h3
+                            data-en="Organiser"
+                            data-ms="Penganjur"
+                        >
+                            Organiser
+                        </h3>
+
+
+                        <p id="EventOrganiser">
+                            Event Organiser
+                        </p>
+
+
+                    </div>
+
+
+                </aside>
+
+
+            </section>
+
+
+        </div>
+
+
+    </main>
+
+
+
+<!-- ========================================
+     FOOTER
+======================================== -->
+
+<div id="Footer">
+
+
+    <!-- ========================================
+         FOOTER LOGO
+    ========================================= -->
+
+    <div id="FooterLogo">
+
+
+        <img
+            src="img/LOGO 2 TRANSPARENT.png"
+            alt="WXNDSH Logo"
+        >
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         SOCIAL MEDIA
+    ========================================= -->
+
+    <div id="SocialMedia">
+
+
+        <h3
+            id="FollowUsText"
+            data-en="FOLLOW US ON"
+            data-ms="IKUTI KAMI"
+        >
+            FOLLOW US ON
+        </h3>
+
+
+
+        <!-- ========================================
+             SOCIAL MEDIA ICONS
+        ========================================= -->
+
+        <div class="SocialIcons">
+
+
+            <a
+                href="https://x.com/"
+                aria-label="Visit X"
+            >
+
+
+                <img
+                    src="img/logo x remove.png"
+                    alt="X"
+                >
+
+
+            </a>
+
+
+            <a
+                href="https://www.instagram.com/wxndsh/"
+                aria-label="Visit Instagram"
+            >
+
+
+                <img
+                    src="img/logo ig remove.png"
+                    alt="Instagram"
+                >
+
+
+            </a>
+
+
+            <a
+                href="https://www.tiktok.com/@wxndssh"
+                aria-label="Visit TikTok"
+            >
+
+
+                <img
+                    src="img/logo tiktok remove.png"
+                    alt="TikTok"
+                >
+
+
+            </a>
+
+
+            <a
+                href="https://www.youtube.com/@bobversiMalaysia"
+                aria-label="Visit YouTube"
+            >
+
+
+                <img
+                    src="img/logo yt remove.png"
+                    alt="YouTube"
+                >
+
+
+            </a>
+
+
+            <a
+                href="https://www.facebook.com/profile.php?id=100069882215740"
+                aria-label="Visit Facebook"
+            >
+
+
+                <img
+                    src="img/logo facebook remove.png"
+                    alt="Facebook"
+                >
+
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         FOOTER CONTACT
+    ========================================= -->
+
+    <div id="FooterContact">
+
+
+        <h3
+            id="HelpFeedbackText"
+            data-en="HELP AND FEEDBACK"
+            data-ms="BANTUAN DAN MAKLUM BALAS"
+        >
+            HELP AND FEEDBACK
+        </h3>
+
+
+        <a
+            href="contactus.html"
+            id="FooterContactText"
+            data-en="CONTACT US ↗"
+            data-ms="HUBUNGI KAMI ↗"
+        >
+            CONTACT US &#8599;
+        </a>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         FOOTER CREATE EVENT
+    ========================================= -->
+
+    <div id="FooterCreate">
+
+
+        <h3
+            id="FooterCreateHeading"
+            data-en="CREATE YOUR EVENT"
+            data-ms="CIPTA EVENT ANDA"
+        >
+            CREATE YOUR EVENT
+        </h3>
+
+
+        <a
+            href="create.html"
+            id="FooterCreateText"
+            data-en="CREATE EVENT"
+            data-ms="CIPTA EVENT"
+        >
+            CREATE EVENT
+        </a>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         CLEAR FLOAT
+    ========================================= -->
+
+    <div class="Clear"></div>
+
+
+</div>
+
+
+
+    <!-- ========================================
+         BACK TO TOP BUTTON
+    ========================================= -->
+
+    <button
+        type="button"
+        id="BackToTopButton"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
+
+
+<!-- ========================================
+     EVENT DETAILS JAVASCRIPT
+======================================== -->
+
+<script src="js/eventdetails.js"></script>
+
+
+</body>
+</html>
+

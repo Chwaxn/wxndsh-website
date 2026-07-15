@@ -1,0 +1,987 @@
+/* ========================================
+   ABOUT PAGE GLOBAL FIX
+======================================== */
+
+html,
+body{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+}
+
+/* ========================================
+   ABOUT PAGE MAIN WIDTH FIX
+======================================== */
+
+#KotakBesar{
+    width:100%;
+    max-width:100%;
+    margin:0px;
+}
+
+
+
+/* ========================================
+   ACTIVE NAVIGATION MENU
+======================================== */
+
+#Menu a.ActiveMenu{
+    color:#1727b5;
+}
+
+
+/* ========================================
+   ABOUT BANNER
+======================================== */
+
+#AboutBanner{
+    position:relative;
+
+    width:100%;
+    height:520px;
+
+    margin:0px;
+
+    overflow:hidden;
+
+    background-image:url("../img/banner batik 1.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+    box-sizing:border-box;
+}
+
+
+/* ABOUT BANNER OVERLAY */
+
+#AboutBannerOverlay{
+    position:absolute;
+
+    top:0px;
+    left:0px;
+
+    z-index:1;
+
+    width:100%;
+    height:100%;
+
+    background-color:rgba(0,0,0,0.15);
+}
+
+
+/* ABOUT BANNER CONTENT */
+
+#AboutBannerContent{
+    position:absolute;
+
+    top:0px;
+    left:0px;
+
+    z-index:2;
+
+    width:100%;
+    height:100%;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+
+/* ABOUT BANNER HEADING */
+
+#AboutBannerHeading{
+    margin:0px;
+
+    color:white;
+
+    font-family:Georgia, serif;
+    font-size:72px;
+    font-weight:400;
+
+    letter-spacing:16px;
+
+    text-shadow:
+        0px 3px 10px rgba(0,0,0,0.50);
+}
+
+
+/* ========================================
+   FOUNDER SECTION
+======================================== */
+
+#FounderSection{
+    width:1380px;
+    min-height:720px;
+
+    margin:0px auto;
+
+    padding-top:120px;
+    padding-bottom:120px;
+
+    background-color:#f5f5fa;
+
+    box-sizing:border-box;
+}
+
+
+/* ========================================
+   FOUNDER IMAGE BOX
+======================================== */
+
+#FounderImageBox{
+    position:relative;
+
+    float:left;
+
+    width:390px;
+    height:450px;
+
+    margin-left:180px;
+
+    padding:8px;
+
+    background-color:#00103b;
+
+    box-sizing:border-box;
+
+    clip-path:polygon(
+        2% 1%,
+        12% 2%,
+        18% 0%,
+        29% 2%,
+        39% 0%,
+        50% 2%,
+        60% 0%,
+        71% 2%,
+        82% 0%,
+        91% 2%,
+        98% 1%,
+        100% 10%,
+        98% 20%,
+        100% 30%,
+        98% 40%,
+        100% 50%,
+        98% 60%,
+        100% 70%,
+        98% 80%,
+        100% 90%,
+        98% 99%,
+        89% 98%,
+        80% 100%,
+        70% 98%,
+        60% 100%,
+        50% 98%,
+        40% 100%,
+        30% 98%,
+        20% 100%,
+        10% 98%,
+        2% 99%,
+        0% 90%,
+        2% 80%,
+        0% 70%,
+        2% 60%,
+        0% 50%,
+        2% 40%,
+        0% 30%,
+        2% 20%,
+        0% 10%
+    );
+
+    filter:
+        drop-shadow(0px 15px 12px rgba(0,0,0,0.20));
+}
+
+
+/* FOUNDER IMAGE */
+
+#FounderImage{
+    display:block;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+    object-position:center;
+
+    clip-path:polygon(
+        2% 1%,
+        12% 2%,
+        18% 0%,
+        29% 2%,
+        39% 0%,
+        50% 2%,
+        60% 0%,
+        71% 2%,
+        82% 0%,
+        91% 2%,
+        98% 1%,
+        100% 10%,
+        98% 20%,
+        100% 30%,
+        98% 40%,
+        100% 50%,
+        98% 60%,
+        100% 70%,
+        98% 80%,
+        100% 90%,
+        98% 99%,
+        89% 98%,
+        80% 100%,
+        70% 98%,
+        60% 100%,
+        50% 98%,
+        40% 100%,
+        30% 98%,
+        20% 100%,
+        10% 98%,
+        2% 99%,
+        0% 90%,
+        2% 80%,
+        0% 70%,
+        2% 60%,
+        0% 50%,
+        2% 40%,
+        0% 30%,
+        2% 20%,
+        0% 10%
+    );
+}
+
+
+/* ========================================
+   FOUNDER CONTENT
+======================================== */
+
+#FounderContent{
+    float:right;
+
+    width:590px;
+    min-height:310px;
+
+    margin-top:75px;
+    margin-right:120px;
+
+    padding:55px 45px;
+
+    border-radius:8px;
+
+    background-color:#05004f;
+    color:white;
+
+    box-sizing:border-box;
+}
+
+
+/* HIDE EXTRA FOUNDER LABEL */
+
+#FounderLabel{
+    display:none;
+}
+
+
+/* FOUNDER HEADING */
+
+#FounderHeading{
+    display:none;
+}
+
+
+/* FOUNDER PARAGRAPHS */
+
+#FounderContent > p{
+    margin-top:0px;
+    margin-bottom:25px;
+
+    color:white;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:15px;
+    font-weight:400;
+
+    line-height:25px;
+
+    text-align:justify;
+}
+
+
+/* HIDE UNUSED PARAGRAPHS */
+
+#FounderDescriptionTwo,
+#FounderDescriptionThree{
+    display:none;
+}
+
+
+/* FOUNDER SIGNATURE */
+
+#FounderSignature{
+    display:none;
+}
+
+
+/* ========================================
+   MEET OUR TEAM SECTION
+======================================== */
+
+#TeamSection{
+    position:relative;
+
+    width:100%;
+
+    min-height:650px;
+
+    margin:0px;
+
+    padding-top:75px;
+    padding-bottom:80px;
+
+    overflow:hidden;
+
+    background-image:url("../img/BACKGROUND\ MEET\ TEAM.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+
+    color:white;
+
+    box-sizing:border-box;
+}
+/* HIDE UNUSED DECORATION */
+
+#TeamDecorationOne,
+#TeamDecorationTwo{
+    display:none;
+}
+
+
+/* ========================================
+   TEAM HEADING
+======================================== */
+
+#TeamHeading{
+    position:relative;
+
+    z-index:2;
+
+    width:100%;
+
+    margin:0px auto 55px auto;
+
+    text-align:center;
+}
+
+
+/* HIDE SMALL HEADING */
+
+#TeamSmallHeading{
+    display:none;
+}
+
+
+/* TEAM MAIN HEADING */
+
+#MeetTeamText{
+    margin:0px;
+
+    color:white;
+
+    font-family:'Montserrat', Arial, sans-serif;
+    font-size:42px;
+    font-weight:800;
+
+    letter-spacing:8px;
+}
+
+
+/* HIDE TEAM DESCRIPTION */
+
+#TeamDescription{
+    display:none;
+}
+
+
+/* ========================================
+   TEAM SLIDER
+======================================== */
+
+#TeamSlider{
+    position:relative;
+
+    z-index:2;
+
+    width:1340px;
+
+    margin:0px auto;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+}
+
+
+/* TEAM SLIDER WINDOW */
+
+#TeamSliderWindow{
+    width:1260px;
+
+    overflow:hidden;
+}
+
+
+/* TEAM SLIDER TRACK */
+
+#TeamSliderTrack{
+    display:flex;
+
+    width:max-content;
+
+    gap:35px;
+
+    transition:
+        transform 0.7s ease;
+}
+
+
+/* ========================================
+   TEAM CARD
+======================================== */
+
+.TeamCard{
+    flex:0 0 285px;
+
+    width:285px;
+
+    text-align:center;
+}
+
+
+/* TEAM IMAGE BOX */
+
+.TeamImageBox{
+    width:285px;
+    height:225px;
+
+    overflow:hidden;
+
+    background-color:#dddddd;
+
+    box-shadow:
+        0px 8px 20px rgba(0,0,0,0.30);
+}
+
+
+/* TEAM IMAGE */
+
+.TeamImage{
+    display:block;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+    object-position:center;
+
+    transition:
+        transform 0.4s ease;
+}
+
+
+/* TEAM IMAGE HOVER */
+
+.TeamCard:hover .TeamImage{
+    transform:scale(1.05);
+}
+
+
+/* ========================================
+   TEAM MEMBER INFORMATION
+======================================== */
+
+.TeamMemberInfo{
+    display:none;
+}
+
+
+/* ========================================
+   TEAM SLIDER ARROW
+======================================== */
+
+.TeamArrow{
+    position:absolute;
+
+    top:50%;
+
+    z-index:5;
+
+    width:52px;
+    height:52px;
+
+    margin:0px;
+    padding:0px;
+
+    border:0px;
+    border-radius:50%;
+
+    background-color:white;
+    color:black;
+
+    font-family:Arial, sans-serif;
+    font-size:25px;
+    font-weight:400;
+
+    line-height:52px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    transform:translateY(-50%);
+
+    box-shadow:
+        0px 3px 10px rgba(0,0,0,0.20);
+
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+/* PREVIOUS TEAM ARROW */
+
+#PreviousTeam{
+    left:0px;
+}
+
+
+/* NEXT TEAM ARROW */
+
+#NextTeam{
+    right:0px;
+}
+
+
+/* TEAM ARROW HOVER */
+
+.TeamArrow:hover{
+    background-color:#1727b5;
+    color:white;
+
+    transform:
+        translateY(-50%)
+        scale(1.08);
+}
+
+
+/* ========================================
+   TEAM SLIDER DOTS
+======================================== */
+
+#TeamSliderDots{
+    position:relative;
+
+    z-index:2;
+
+    margin-top:65px;
+
+    text-align:center;
+}
+
+
+/* TEAM DOT */
+
+.TeamDot{
+    display:inline-block;
+
+    width:13px;
+    height:13px;
+
+    margin:0px 7px;
+    padding:0px;
+
+    border:0px;
+    border-radius:50%;
+
+    background-color:#80828a;
+
+    cursor:pointer;
+
+    transition:
+        width 0.25s ease,
+        border-radius 0.25s ease,
+        background-color 0.25s ease;
+}
+
+
+/* ACTIVE TEAM DOT */
+
+.TeamDot.ActiveTeamDot{
+    width:28px;
+
+    border-radius:10px;
+
+    background-color:#ffd24a;
+}
+
+
+/* ========================================
+   BACK TO TOP
+======================================== */
+
+#BackToTop{
+    position:fixed;
+
+    right:28px;
+    bottom:28px;
+
+    z-index:50;
+
+    display:none;
+
+    width:52px;
+    height:52px;
+
+    margin:0px;
+    padding:0px;
+
+    border:0px;
+    border-radius:50%;
+
+    background-color:white;
+    color:black;
+
+    font-size:23px;
+
+    line-height:52px;
+
+    text-align:center;
+
+    box-shadow:
+        0px 5px 15px rgba(0,0,0,0.25);
+
+    cursor:pointer;
+
+    opacity:0;
+
+    transform:
+        translateY(20px);
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease,
+        background-color 0.25s ease,
+        color 0.25s ease;
+}
+
+
+/* SHOW BACK TO TOP */
+
+#BackToTop.ShowBackToTop{
+    display:block;
+
+    opacity:1;
+
+    transform:
+        translateY(0px);
+}
+
+
+/* BACK TO TOP HOVER */
+
+#BackToTop:hover{
+    background-color:#1727b5;
+    color:white;
+
+    transform:
+        translateY(-4px);
+}
+
+
+/* ========================================
+   ABOUT PAGE RESPONSIVE
+======================================== */
+
+@media screen and (max-width:1500px){
+
+
+    #AboutBanner{
+        width:100%;
+    }
+
+
+    #FounderSection{
+        width:100%;
+    }
+
+
+    #TeamSection{
+        width:100%;
+    }
+
+
+    #TeamSlider{
+        width:calc(100% - 30px);
+    }
+
+
+}
+
+
+
+@media screen and (max-width:1250px){
+
+
+    #FounderImageBox{
+        width:350px;
+        height:430px;
+
+        margin-left:100px;
+    }
+
+
+    #FounderContent{
+        width:540px;
+
+        margin-right:80px;
+    }
+
+
+    #TeamSliderWindow{
+        width:930px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:1050px){
+
+
+    #AboutBanner{
+        height:400px;
+    }
+
+
+    #AboutBannerHeading{
+        font-size:58px;
+        letter-spacing:12px;
+    }
+
+
+    #FounderSection{
+        min-height:auto;
+
+        padding-top:90px;
+        padding-bottom:90px;
+    }
+
+
+    #FounderImageBox{
+        float:none;
+
+        width:390px;
+        height:450px;
+
+        margin:0px auto;
+    }
+
+
+    #FounderContent{
+        float:none;
+
+        width:720px;
+
+        margin:-25px auto 0px auto;
+
+        padding-top:65px;
+    }
+
+
+    #TeamSliderWindow{
+        width:610px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:800px){
+
+
+    #AboutBanner{
+        height:320px;
+    }
+
+
+    #AboutBannerHeading{
+        font-size:46px;
+        letter-spacing:9px;
+    }
+
+
+    #FounderContent{
+        width:85%;
+    }
+
+
+    #TeamSection{
+        min-height:620px;
+
+        padding-top:60px;
+    }
+
+
+    #MeetTeamText{
+        font-size:34px;
+        letter-spacing:5px;
+    }
+
+
+    #TeamSlider{
+        width:390px;
+    }
+
+
+    #TeamSliderWindow{
+        width:285px;
+    }
+
+
+    #PreviousTeam{
+        left:0px;
+    }
+
+
+    #NextTeam{
+        right:0px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:550px){
+
+
+    #AboutBanner{
+        height:250px;
+    }
+
+
+    #AboutBannerHeading{
+        font-size:36px;
+        letter-spacing:6px;
+    }
+
+
+    #FounderSection{
+        padding-top:65px;
+        padding-bottom:65px;
+    }
+
+
+    #FounderImageBox{
+        width:85%;
+        height:420px;
+    }
+
+
+    #FounderContent{
+        width:90%;
+
+        margin-top:-20px;
+
+        padding:
+            55px
+            25px
+            35px
+            25px;
+    }
+
+
+    #FounderContent > p{
+        font-size:13px;
+        line-height:22px;
+
+        text-align:left;
+    }
+
+
+    #TeamSection{
+        min-height:570px;
+
+        padding-top:50px;
+        padding-bottom:60px;
+    }
+
+
+    #MeetTeamText{
+        font-size:27px;
+        letter-spacing:4px;
+    }
+
+
+    #TeamHeading{
+        margin-bottom:40px;
+    }
+
+
+    #TeamSlider{
+        width:350px;
+    }
+
+
+    #TeamSliderWindow{
+        width:250px;
+    }
+
+
+    .TeamCard{
+        flex-basis:250px;
+
+        width:250px;
+    }
+
+
+    .TeamImageBox{
+        width:250px;
+        height:210px;
+    }
+
+
+    .TeamArrow{
+        width:42px;
+        height:42px;
+
+        font-size:20px;
+
+        line-height:42px;
+    }
+
+
+    #TeamSliderDots{
+        margin-top:45px;
+    }
+
+
+    #BackToTop{
+        right:18px;
+        bottom:18px;
+
+        width:46px;
+        height:46px;
+
+        line-height:46px;
+    }
+
+
+}

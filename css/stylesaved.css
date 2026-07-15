@@ -1,0 +1,1181 @@
+/* ========================================
+   MAIN BOX
+======================================== */
+
+#KotakBesar{
+    width:100%;
+}
+
+/* ========================================
+   ACTIVE NAVIGATION MENU
+======================================== */
+
+#Menu a.ActiveMenu{
+    color:#1727b5;
+}
+
+
+
+/* ========================================
+   SAVED EVENTS BANNER
+======================================== */
+
+#SavedBanner{
+    position:relative;
+
+    width:100%;
+    height:505px;
+
+    margin:0px auto;
+
+    overflow:hidden;
+
+    background-image:
+        url("../img/bannner\ saved.png");
+
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+
+
+/* ========================================
+   SAVED EVENTS BANNER OVERLAY
+======================================== */
+
+#SavedBannerOverlay{
+    position:absolute;
+
+    top:0px;
+    left:0px;
+
+    z-index:1;
+
+    width:100%;
+    height:100%;
+
+    background-color:
+        rgba(0, 10, 38, 0.46);
+}
+
+
+
+/* ========================================
+   SAVED EVENTS BANNER TEXT
+======================================== */
+
+#SavedBannerText{
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    z-index:2;
+
+    width:100%;
+
+    text-align:center;
+
+    color:white;
+
+    transform:
+        translate(-50%, -50%);
+}
+
+
+
+/* SMALL BANNER TEXT */
+
+#SavedBannerSmallText{
+    margin:0px 0px 18px 0px;
+
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:31px;
+    font-weight:700;
+
+    line-height:36px;
+
+    letter-spacing:1px;
+}
+
+
+
+/* LARGE BANNER TEXT */
+
+#SavedBannerHeading{
+    margin:0px;
+
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:67px;
+    font-weight:700;
+
+    line-height:76px;
+
+    letter-spacing:2px;
+}
+
+
+
+/* ========================================
+   SAVED EVENTS TITLE SECTION
+======================================== */
+
+#SavedHeadingSection{
+    width:1450px;
+    height:390px;
+
+    margin:0px auto;
+
+    padding-top:76px;
+
+    background-color:white;
+
+    box-sizing:border-box;
+}
+
+
+
+/* ========================================
+   SAVED EVENTS TITLE LABEL
+======================================== */
+
+#SavedHeadingLabel{
+    width:225px;
+    height:35px;
+
+    margin-left:52px;
+
+    background-color:#ef8be8;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    box-sizing:border-box;
+}
+
+
+
+/* LABEL TEXT */
+
+#SavedHeadingLabel span{
+    color:#9d4d99;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:15px;
+    font-weight:400;
+
+    line-height:35px;
+}
+
+
+
+/* ========================================
+   SAVED EVENTS MAIN HEADING
+======================================== */
+
+#SavedMainHeading{
+    position:relative;
+
+    margin-top:19px;
+    margin-left:51px;
+}
+
+
+
+/* MAIN HEADING */
+
+#SavedMainHeading h1{
+    margin:0px;
+
+    display:flex;
+    align-items:center;
+
+    font-weight:normal;
+}
+
+
+
+/* YOUR SAVED TEXT */
+
+#YourSavedText{
+    color:#080a87;
+
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:67px;
+    font-weight:400;
+
+    line-height:85px;
+}
+
+
+
+/* EVENTS SCRIPT TEXT */
+
+#EventsScriptText{
+    margin-left:24px;
+    margin-top:4px;
+
+    color:#f2bb00;
+
+    font-family:'Allison', cursive;
+    font-size:91px;
+    font-weight:400;
+
+    line-height:85px;
+}
+
+
+
+/* ========================================
+   SAVED EVENTS HEADING LINE
+======================================== */
+
+#SavedHeadingLine{
+    width:425px;
+    height:4px;
+
+    margin-top:5px;
+
+    background-color:#080a87;
+}
+
+
+
+/* ========================================
+   SAVED EVENTS CONTENT
+======================================== */
+
+#SavedEventsSection{
+    width:1450px;
+    min-height:740px;
+
+    margin:0px auto;
+
+    padding-top:105px;
+    padding-bottom:110px;
+
+    border-top:5px solid #dedee8;
+
+    background-color:#f5f5fa;
+
+    box-sizing:border-box;
+}
+
+
+
+/* ========================================
+   SAVED EVENT LIST
+======================================== */
+
+#SavedEventList{
+    width:1360px;
+
+    margin:0px auto;
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(3, 440px);
+
+    column-gap:20px;
+    row-gap:60px;
+
+    justify-content:start;
+}
+
+
+
+/* ========================================
+   SAVED EVENT CARD
+======================================== */
+
+.SavedEventCard{
+    position:relative;
+
+    transition:
+        opacity 0.35s ease,
+        transform 0.35s ease;
+}
+
+
+
+/* REMOVE CARD ANIMATION */
+
+.SavedEventCard.RemoveSavedCard{
+    opacity:0;
+
+    transform:
+        scale(0.92)
+        translateY(20px);
+
+    pointer-events:none;
+}
+
+
+
+/* ========================================
+   REMOVE SAVED EVENT BUTTON
+======================================== */
+
+.RemoveSavedIcon{
+    float:right;
+
+    width:58px;
+    height:58px;
+
+    margin:0px;
+    padding:0px;
+
+    border:0px;
+    border-radius:50%;
+
+    background-color:black;
+    color:white;
+
+    text-align:center;
+
+    font-size:23px;
+    line-height:58px;
+
+    cursor:pointer;
+
+    transition:
+        background-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+
+/* REMOVE BUTTON ICON */
+
+.RemoveSavedIcon i{
+    pointer-events:none;
+}
+
+
+
+/* ========================================
+   REMOVE SAVED EVENT BUTTON HOVER
+======================================== */
+
+.RemoveSavedIcon:hover{
+    background-color:#d62828;
+
+    transform:
+        translateY(-3px);
+}
+
+
+/* REMOVE BUTTON ACTIVE */
+
+.RemoveSavedIcon:active{
+    transform:
+        translateY(0px)
+        scale(0.95);
+}
+
+
+
+/* ========================================
+   SAVED EVENT CARD ADJUSTMENTS
+======================================== */
+
+.SavedEventCard .EventContent{
+    padding:
+        10px
+        20px
+        15px
+        20px;
+}
+
+
+
+/* EVENT CATEGORY */
+
+.SavedEventCard .EventCategory{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+
+/* EVENT TITLE */
+
+.SavedEventCard .EventContent h2{
+    margin-top:7px;
+}
+
+
+
+/* EVENT LOCATION */
+
+.SavedEventCard .EventContent h3{
+    min-height:40px;
+
+    margin-bottom:12px;
+}
+
+
+
+/* EVENT INFORMATION */
+
+.SavedEventCard .EventInfo{
+    margin-top:9px;
+    margin-bottom:6px;
+}
+
+
+
+/* EVENT INFORMATION ICON */
+
+.SavedEventCard .EventInfo i{
+    width:21px;
+
+    margin-right:3px;
+
+    text-align:center;
+
+    font-size:17px;
+}
+
+
+
+/* MORE BUTTON */
+
+.SavedEventCard .MoreButton{
+    margin-top:7px;
+}
+
+
+
+/* ========================================
+   NO SAVED EVENTS MESSAGE
+======================================== */
+
+#NoSavedEventsMessage{
+    display:none;
+
+    width:700px;
+
+    margin:80px auto;
+
+    text-align:center;
+}
+
+
+
+/* EMPTY CALENDAR ICON */
+
+#NoSavedEventsMessage > i{
+    margin-bottom:20px;
+
+    color:#1727b5;
+
+    font-size:70px;
+}
+
+
+
+/* EMPTY MESSAGE HEADING */
+
+#NoSavedEventsMessage h2{
+    margin:
+        0px
+        0px
+        12px
+        0px;
+
+    color:#111111;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:31px;
+    font-weight:700;
+}
+
+
+
+/* EMPTY MESSAGE DESCRIPTION */
+
+#NoSavedEventsMessage p{
+    margin:
+        0px
+        0px
+        28px
+        0px;
+
+    color:#666666;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:15px;
+    font-weight:400;
+
+    line-height:23px;
+}
+
+
+
+/* EXPLORE EVENTS BUTTON */
+
+#ExploreEventsButton{
+    display:inline-block;
+
+    padding:
+        14px
+        35px;
+
+    border-radius:14px;
+
+    background-color:#1727b5;
+    color:white;
+
+    text-decoration:none;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:12px;
+    font-weight:700;
+
+    transition:
+        background-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+
+/* EXPLORE EVENTS BUTTON HOVER */
+
+#ExploreEventsButton:hover{
+    background-color:#0d198c;
+
+    transform:
+        translateY(-3px);
+}
+
+
+
+/* ========================================
+   SAVED EVENTS BACK TO TOP
+======================================== */
+
+#BackToTop{
+    background-color:#080a87;
+    color:white;
+}
+
+
+
+/* BACK TO TOP HOVER */
+
+#BackToTop:hover{
+    background-color:#1727b5;
+    color:white;
+}
+
+
+
+/* ========================================
+   LARGE SCREEN
+======================================== */
+
+@media screen and (min-width:1451px){
+
+
+    #SavedBanner{
+        width:100%;
+    }
+
+
+    #SavedHeadingSection{
+        width:100%;
+    }
+
+
+    #SavedEventsSection{
+        width:100%;
+    }
+
+
+}
+
+
+
+/* ========================================
+   LAPTOP SCREEN
+======================================== */
+
+@media screen and (max-width:1450px){
+
+
+    #SavedBanner{
+        width:100%;
+    }
+
+
+    #SavedHeadingSection{
+        width:100%;
+    }
+
+
+    #SavedEventsSection{
+        width:100%;
+    }
+
+
+    #SavedEventList{
+        width:calc(100% - 70px);
+
+        grid-template-columns:
+            repeat(3, minmax(0px, 1fr));
+
+        column-gap:30px;
+    }
+
+
+    .SavedEventCard{
+        width:100%;
+    }
+
+
+}
+
+
+
+/* ========================================
+   SMALL LAPTOP SCREEN
+======================================== */
+
+@media screen and (max-width:1200px){
+
+
+    #SavedBanner{
+        height:450px;
+    }
+
+
+    #SavedBannerSmallText{
+        font-size:27px;
+        line-height:32px;
+    }
+
+
+    #SavedBannerHeading{
+        font-size:58px;
+        line-height:68px;
+    }
+
+
+    #SavedHeadingSection{
+        height:350px;
+
+        padding-top:68px;
+    }
+
+
+    #SavedHeadingLabel{
+        margin-left:45px;
+    }
+
+
+    #SavedMainHeading{
+        margin-left:45px;
+    }
+
+
+    #YourSavedText{
+        font-size:59px;
+        line-height:75px;
+    }
+
+
+    #EventsScriptText{
+        font-size:82px;
+        line-height:75px;
+    }
+
+
+    #SavedHeadingLine{
+        width:375px;
+    }
+
+
+    #SavedEventList{
+        width:920px;
+
+        grid-template-columns:
+            repeat(2, 440px);
+
+        column-gap:40px;
+
+        justify-content:center;
+    }
+
+
+}
+
+
+
+/* ========================================
+   TABLET SCREEN
+======================================== */
+
+@media screen and (max-width:992px){
+
+
+    #SavedBanner{
+        height:390px;
+    }
+
+
+    #SavedBannerSmallText{
+        margin-bottom:12px;
+
+        font-size:23px;
+        line-height:29px;
+    }
+
+
+    #SavedBannerHeading{
+        font-size:49px;
+        line-height:58px;
+    }
+
+
+    #SavedHeadingSection{
+        height:310px;
+
+        padding-top:58px;
+    }
+
+
+    #SavedHeadingLabel{
+        width:190px;
+        height:32px;
+
+        margin-left:35px;
+    }
+
+
+    #SavedHeadingLabel span{
+        font-size:13px;
+        line-height:32px;
+    }
+
+
+    #SavedMainHeading{
+        margin-top:15px;
+        margin-left:35px;
+    }
+
+
+    #YourSavedText{
+        font-size:49px;
+        line-height:65px;
+    }
+
+
+    #EventsScriptText{
+        margin-left:17px;
+
+        font-size:72px;
+        line-height:65px;
+    }
+
+
+    #SavedHeadingLine{
+        width:320px;
+        height:3px;
+    }
+
+
+    #SavedEventsSection{
+        min-height:700px;
+
+        padding-top:80px;
+        padding-bottom:90px;
+    }
+
+
+    #SavedEventList{
+        width:calc(100% - 60px);
+
+        grid-template-columns:
+            repeat(2, minmax(0px, 1fr));
+
+        column-gap:30px;
+        row-gap:45px;
+    }
+
+
+    .SavedEventCard{
+        width:100%;
+    }
+
+
+    #NoSavedEventsMessage{
+        width:calc(100% - 60px);
+    }
+
+
+}
+
+
+
+/* ========================================
+   MOBILE SCREEN
+======================================== */
+
+@media screen and (max-width:700px){
+
+
+    #SavedBanner{
+        height:320px;
+
+        background-position:center;
+    }
+
+
+    #SavedBannerOverlay{
+        background-color:
+            rgba(0, 10, 38, 0.52);
+    }
+
+
+    #SavedBannerText{
+        padding:
+            0px
+            25px;
+
+        box-sizing:border-box;
+    }
+
+
+    #SavedBannerSmallText{
+        margin-bottom:10px;
+
+        font-size:18px;
+        line-height:23px;
+    }
+
+
+    #SavedBannerHeading{
+        font-size:38px;
+        line-height:46px;
+
+        letter-spacing:1px;
+    }
+
+
+    #SavedHeadingSection{
+        height:265px;
+
+        padding-top:48px;
+    }
+
+
+    #SavedHeadingLabel{
+        width:165px;
+        height:30px;
+
+        margin-left:24px;
+    }
+
+
+    #SavedHeadingLabel span{
+        font-size:12px;
+        line-height:30px;
+    }
+
+
+    #SavedMainHeading{
+        margin-top:13px;
+        margin-left:24px;
+    }
+
+
+    #SavedMainHeading h1{
+        align-items:flex-end;
+    }
+
+
+    #YourSavedText{
+        font-size:39px;
+        line-height:53px;
+    }
+
+
+    #EventsScriptText{
+        margin-left:11px;
+        margin-top:0px;
+
+        font-size:58px;
+        line-height:53px;
+    }
+
+
+    #SavedHeadingLine{
+        width:250px;
+        height:3px;
+
+        margin-top:4px;
+    }
+
+
+    #SavedEventsSection{
+        min-height:620px;
+
+        padding-top:60px;
+        padding-bottom:75px;
+
+        border-top-width:4px;
+    }
+
+
+    #SavedEventList{
+        width:440px;
+
+        grid-template-columns:
+            440px;
+
+        row-gap:45px;
+
+        justify-content:center;
+    }
+
+
+}
+
+
+
+/* ========================================
+   SMALL MOBILE SCREEN
+======================================== */
+
+@media screen and (max-width:500px){
+
+
+    #SavedBanner{
+        height:280px;
+    }
+
+
+    #SavedBannerSmallText{
+        font-size:16px;
+        line-height:21px;
+    }
+
+
+    #SavedBannerHeading{
+        font-size:32px;
+        line-height:40px;
+    }
+
+
+    #SavedHeadingSection{
+        height:235px;
+
+        padding-top:40px;
+    }
+
+
+    #SavedHeadingLabel{
+        width:145px;
+        height:28px;
+
+        margin-left:20px;
+    }
+
+
+    #SavedHeadingLabel span{
+        font-size:11px;
+        line-height:28px;
+    }
+
+
+    #SavedMainHeading{
+        margin-top:11px;
+        margin-left:20px;
+    }
+
+
+    #SavedMainHeading h1{
+        display:block;
+    }
+
+
+    #YourSavedText{
+        display:inline-block;
+
+        font-size:36px;
+        line-height:48px;
+    }
+
+
+    #EventsScriptText{
+        display:inline-block;
+
+        margin-left:8px;
+
+        font-size:54px;
+        line-height:48px;
+    }
+
+
+    #SavedHeadingLine{
+        width:225px;
+    }
+
+
+    #SavedEventsSection{
+        padding-top:50px;
+        padding-bottom:65px;
+    }
+
+
+    #SavedEventList{
+        width:calc(100% - 36px);
+
+        grid-template-columns:
+            minmax(0px, 1fr);
+    }
+
+
+    .SavedEventCard{
+        width:100%;
+        height:auto;
+        min-height:500px;
+    }
+
+
+    .SavedEventCard .EventImage{
+        height:220px;
+    }
+
+
+    .RemoveSavedIcon{
+        width:50px;
+        height:50px;
+
+        font-size:20px;
+        line-height:50px;
+    }
+
+
+    #NoSavedEventsMessage{
+        width:calc(100% - 40px);
+
+        margin:
+            60px
+            auto;
+    }
+
+
+    #NoSavedEventsMessage > i{
+        font-size:58px;
+    }
+
+
+    #NoSavedEventsMessage h2{
+        font-size:25px;
+    }
+
+
+    #NoSavedEventsMessage p{
+        font-size:14px;
+    }
+
+
+}
+
+
+
+/* ========================================
+   EXTRA SMALL MOBILE SCREEN
+======================================== */
+
+@media screen and (max-width:380px){
+
+
+    #SavedBanner{
+        height:250px;
+    }
+
+
+    #SavedBannerSmallText{
+        font-size:14px;
+        line-height:19px;
+    }
+
+
+    #SavedBannerHeading{
+        font-size:27px;
+        line-height:35px;
+    }
+
+
+    #SavedHeadingSection{
+        height:220px;
+    }
+
+
+    #SavedHeadingLabel{
+        margin-left:16px;
+    }
+
+
+    #SavedMainHeading{
+        margin-left:16px;
+    }
+
+
+    #YourSavedText{
+        font-size:31px;
+        line-height:43px;
+    }
+
+
+    #EventsScriptText{
+        margin-left:5px;
+
+        font-size:48px;
+        line-height:43px;
+    }
+
+
+    #SavedHeadingLine{
+        width:195px;
+    }
+
+
+    #SavedEventList{
+        width:calc(100% - 28px);
+    }
+
+
+    .SavedEventCard .EventContent{
+        padding:
+            10px
+            15px
+            15px
+            15px;
+    }
+
+
+    .SavedEventCard .EventContent h2{
+        font-size:18px;
+        line-height:24px;
+    }
+
+
+    .SavedEventCard .EventContent h3{
+        font-size:14px;
+        line-height:19px;
+    }
+
+
+    .SavedEventCard .EventInfo{
+        font-size:12px;
+    }
+
+
+}

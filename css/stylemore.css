@@ -1,0 +1,1457 @@
+html{
+    scroll-behavior:smooth;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@800&display=swap");
+
+
+/* ========================================
+   BODY
+======================================== */
+
+body{
+    margin:0px;
+    padding:0px;
+
+    background-color:#f5f5fa;
+    color:#000000;
+
+    font-family:'Inter', Arial, sans-serif;
+}
+
+
+/* ========================================
+   GLOBAL BOX SIZING
+======================================== */
+
+*{
+    box-sizing:border-box;
+}
+
+
+/* ========================================
+   HEADER
+======================================== */
+
+#Header{
+    width:1380px;
+    height:100px;
+
+    margin:20px auto 10px auto;
+}
+
+
+/* ========================================
+   LOGO AND BRAND NAME
+======================================== */
+
+#Logo{
+    float:left;
+
+    width:230px;
+    height:100px;
+}
+
+#Logo a{
+    display:block;
+
+    width:100%;
+    height:100%;
+
+    text-decoration:none;
+}
+
+#Logo img{
+    float:left;
+
+    width:58px;
+    height:58px;
+
+    margin-top:17px;
+
+    object-fit:contain;
+}
+
+#Logo span{
+    float:left;
+
+    margin-top:31px;
+    margin-left:8px;
+
+    color:#101f87;
+
+    font-family:'Montserrat', Arial, sans-serif;
+    font-size:27px;
+    font-weight:800;
+}
+
+
+/* ========================================
+   NAVIGATION MENU
+======================================== */
+
+#Menu{
+    float:left;
+
+    height:100px;
+
+    margin-left:15px;
+}
+
+#Menu a{
+    display:inline-block;
+
+    margin-right:38px;
+
+    color:#000000;
+
+    text-decoration:none;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:15px;
+    font-weight:600;
+
+    line-height:100px;
+
+    transition:color 0.25s ease;
+}
+
+#Menu a:visited{
+    color:#000000;
+}
+
+#Menu a:hover{
+    color:#1727b5;
+}
+
+
+/* ========================================
+   HEADER RIGHT
+======================================== */
+
+#HeaderRight{
+    float:right;
+
+    height:100px;
+}
+
+
+/* ========================================
+   LANGUAGE SWITCH
+======================================== */
+
+#Language{
+    float:left;
+
+    height:100px;
+
+    margin-right:25px;
+}
+
+#LanguageButton{
+    float:left;
+
+    width:48px;
+    height:48px;
+
+    margin-top:25px;
+    padding:0px;
+
+    border:0px;
+    border-radius:50%;
+
+    overflow:hidden;
+
+    background-color:transparent;
+
+    cursor:pointer;
+}
+
+#LanguageButton img{
+    display:block;
+
+    width:48px;
+    height:48px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+}
+
+#LanguageText{
+    float:left;
+
+    margin-top:41px;
+    margin-left:10px;
+
+    color:#000000;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:14px;
+    font-weight:600;
+}
+
+
+/* ========================================
+   CREATE EVENT BUTTON
+======================================== */
+
+#CreateEvent{
+    float:left;
+
+    margin-top:25px;
+}
+
+#CreateEvent a{
+    display:block;
+
+    min-width:120px;
+
+    padding:16px 20px;
+
+    border-radius:14px;
+
+    background-color:#1727bd;
+    color:#ffffff;
+
+    text-align:center;
+    text-decoration:none;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:14px;
+    font-weight:600;
+
+    transition:
+        background-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+#CreateEvent a:hover{
+    background-color:#0d198c;
+
+    transform:translateY(-2px);
+}
+
+
+/* ========================================
+   CLEAR FLOAT
+======================================== */
+
+.Clear{
+    clear:both;
+}
+
+
+/* ========================================
+   EVENT DETAILS MAIN SECTION
+======================================== */
+
+#EventDetailsMain{
+    width:100%;
+
+    padding-top:0px;
+    padding-bottom:70px;
+}
+
+
+/* ========================================
+   EVENT DETAILS CONTAINER
+======================================== */
+
+#EventDetailsContainer{
+    width:1380px;
+
+    margin:0px auto;
+}
+
+
+/* ========================================
+   EVENT BANNER SECTION
+======================================== */
+
+#EventBannerSection{
+    width:100%;
+    height:630px;
+
+    margin:0px auto;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    background-color:#e4e4ec;
+}
+
+
+/* ========================================
+   EVENT BANNER IMAGE
+======================================== */
+
+#EventBannerImage{
+    display:block;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+    object-position:center;
+}
+
+
+/* ========================================
+   EVENT CONTENT SECTION
+======================================== */
+
+#EventContentSection{
+    width:100%;
+
+    margin-top:52px;
+
+    display:grid;
+    grid-template-columns:minmax(0px, 1fr) 370px;
+    column-gap:70px;
+
+    align-items:start;
+}
+
+
+/* ========================================
+   EVENT MAIN CONTENT
+======================================== */
+
+#EventMainContent{
+    min-width:0px;
+}
+
+
+/* ========================================
+   EVENT CATEGORY
+======================================== */
+
+#EventCategory{
+    display:inline-block;
+
+    min-width:155px;
+
+    padding:8px 22px;
+
+    border-radius:3px;
+
+    background-color:#e4e1ff;
+    color:#3725a5;
+
+    text-align:center;
+    text-transform:uppercase;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:14px;
+    font-weight:500;
+}
+
+
+/* ========================================
+   SPORT CATEGORY
+======================================== */
+
+#EventCategory[data-category="sport"]{
+    background-color:#fff0b2;
+    color:#a57c00;
+}
+
+
+/* ========================================
+   ENTERTAINMENT CATEGORY
+======================================== */
+
+#EventCategory[data-category="entertainment"]{
+    background-color:#e4e1ff;
+    color:#6851da;
+}
+
+
+/* ========================================
+   SEMINAR CATEGORY
+======================================== */
+
+#EventCategory[data-category="seminar"]{
+    background-color:#b8fffd;
+    color:#00aaa8;
+}
+
+
+/* ========================================
+   TRAVEL CATEGORY
+======================================== */
+
+#EventCategory[data-category="travel"]{
+    background-color:#ffe4cc;
+    color:#f57c00;
+}
+
+
+/* ========================================
+   EXHIBITIONS CATEGORY
+======================================== */
+
+#EventCategory[data-category="exhibitions"]{
+    background-color:#e5f7d4;
+    color:#5fa000;
+}
+
+
+/* ========================================
+   EVENT TITLE
+======================================== */
+
+#EventTitle{
+    margin:38px 0px 12px 0px;
+
+    color:#101f87;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:48px;
+    font-style:italic;
+    font-weight:800;
+    line-height:1.18;
+}
+
+
+/* ========================================
+   EVENT TITLE DECORATION LINE
+======================================== */
+
+#EventTitleLine{
+    width:230px;
+    height:4px;
+
+    margin-bottom:52px;
+
+    border-radius:10px;
+
+    background-color:#1727bd;
+}
+
+
+/* ========================================
+   EVENT DESCRIPTION
+======================================== */
+
+#EventDescription{
+    max-width:880px;
+
+    margin:0px;
+
+    color:#111111;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:20px;
+    font-weight:400;
+    line-height:1.45;
+    letter-spacing:0.5px;
+}
+
+
+/* ========================================
+   EVENT INFORMATION CARD
+======================================== */
+
+#EventInformationCard{
+    width:370px;
+
+    margin-top:100px;
+    padding:30px 22px 28px 22px;
+
+    border:1px solid #dddddd;
+    border-radius:18px;
+
+    background-color:#ffffff;
+
+    box-shadow:
+        2px 4px 7px rgba(0,0,0,0.20);
+}
+
+
+/* ========================================
+   EVENT INFORMATION TITLE
+======================================== */
+
+#EventInformationTitle{
+    margin:0px 0px 20px 0px;
+
+    color:#101f87;
+
+    text-align:center;
+    text-transform:uppercase;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:20px;
+    font-weight:800;
+}
+
+
+/* ========================================
+   INFORMATION DIVIDER
+======================================== */
+
+.InformationDivider{
+    width:100%;
+    height:3px;
+
+    margin:0px;
+
+    border-radius:8px;
+
+    background-color:#d7d7e8;
+}
+
+
+/* ========================================
+   EVENT INFORMATION ITEM
+======================================== */
+
+.EventInformationItem{
+    padding:24px 0px 22px 0px;
+}
+
+
+/* ========================================
+   EVENT INFORMATION LABEL
+======================================== */
+
+.EventInformationItem h3{
+    margin:0px 0px 8px 0px;
+
+    color:#111111;
+
+    text-transform:uppercase;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:16px;
+    font-weight:800;
+}
+
+
+/* ========================================
+   EVENT INFORMATION VALUE
+======================================== */
+
+.EventInformationItem p{
+    margin:0px;
+
+    color:#111111;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:13px;
+    font-weight:500;
+    line-height:1.5;
+}
+
+
+/* ========================================
+   FOOTER
+======================================== */
+
+#Footer{
+    width:100%;
+    height:175px;
+
+    overflow:hidden;
+
+    background-color:#00103b;
+    color:#ffffff;
+}
+
+
+/* ========================================
+   FOOTER LOGO
+======================================== */
+
+#FooterLogo{
+    width:18%;
+    height:175px;
+
+    float:left;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    box-sizing:border-box;
+}
+
+#FooterLogo img{
+    display:block;
+
+    width:105px;
+    height:auto;
+
+    object-fit:contain;
+}
+
+
+/* ========================================
+   SOCIAL MEDIA
+======================================== */
+
+#SocialMedia{
+    width:44%;
+    height:175px;
+
+    float:left;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    border-right:1px solid rgba(255,255,255,0.22);
+
+    text-align:center;
+
+    box-sizing:border-box;
+}
+
+#SocialMedia h3{
+    margin:0px 0px 18px 0px;
+
+    color:#ffffff;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:4px;
+}
+
+
+/* ========================================
+   SOCIAL MEDIA ICONS
+======================================== */
+
+.SocialIcons{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    gap:10px;
+}
+
+#SocialMedia a{
+    display:block;
+
+    text-decoration:none;
+}
+
+#SocialMedia a img{
+    display:block;
+
+    width:40px;
+    height:40px;
+
+    object-fit:contain;
+
+    transition:
+        transform 0.25s ease,
+        opacity 0.25s ease;
+}
+
+#SocialMedia a:hover img{
+    opacity:0.85;
+
+    transform:translateY(-3px);
+}
+
+
+/* ========================================
+   FOOTER CONTACT
+======================================== */
+
+#FooterContact{
+    width:20%;
+    height:175px;
+
+    float:left;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    box-sizing:border-box;
+}
+
+#FooterContact h3{
+    margin:0px 0px 20px 0px;
+
+    color:#ffffff;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:4px;
+}
+
+#FooterContact a{
+    display:inline-block;
+
+    padding:12px 25px;
+
+    border-radius:22px;
+
+    background-color:#ffffff;
+    color:#000000;
+
+    text-decoration:none;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:12px;
+    font-weight:700;
+
+    transition:
+        background-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+#FooterContact a:hover{
+    background-color:#eeeeee;
+
+    transform:translateY(-2px);
+}
+
+
+/* ========================================
+   FOOTER CREATE EVENT
+======================================== */
+
+#FooterCreate{
+    width:18%;
+    height:175px;
+
+    float:left;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
+    box-sizing:border-box;
+}
+
+#FooterCreate h3{
+    margin:0px 0px 20px 0px;
+
+    color:#ffffff;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:4px;
+}
+
+#FooterCreate a{
+    display:inline-block;
+
+    padding:12px 25px;
+
+    border-radius:22px;
+
+    background-color:#ffffff;
+    color:#000000;
+
+    text-decoration:none;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:12px;
+    font-weight:700;
+
+    transition:
+        background-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+#FooterCreate a:hover{
+    background-color:#eeeeee;
+
+    transform:translateY(-2px);
+}
+
+
+/* ========================================
+   CLEAR FLOAT
+======================================== */
+
+.Clear{
+    clear:both;
+}
+
+
+/* ========================================
+   BACK TO TOP BUTTON
+======================================== */
+
+#BackToTopButton{
+    position:fixed;
+
+    right:28px;
+    bottom:28px;
+
+    z-index:50;
+
+    display:none;
+
+    width:52px;
+    height:52px;
+
+    margin:0px;
+    padding:0px;
+
+    border:0px;
+    border-radius:50%;
+
+    background-color:#ffffff;
+    color:#000000;
+
+    text-align:center;
+
+    font-family:'Inter', Arial, sans-serif;
+    font-size:23px;
+    line-height:52px;
+
+    box-shadow:
+        0px 5px 15px rgba(0,0,0,0.25);
+
+    cursor:pointer;
+
+    opacity:0;
+
+    transform:translateY(20px);
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease,
+        background-color 0.25s ease,
+        color 0.25s ease;
+}
+
+
+/* ========================================
+   SHOW BACK TO TOP BUTTON
+======================================== */
+
+#BackToTopButton.ShowBackToTop{
+    display:block;
+
+    opacity:1;
+
+    transform:translateY(0px);
+}
+
+
+/* ========================================
+   BACK TO TOP BUTTON HOVER
+======================================== */
+
+#BackToTopButton:hover{
+    background-color:#1727b5;
+    color:#ffffff;
+
+    transform:translateY(-4px);
+}
+
+
+/* ========================================
+   LARGE TABLET RESPONSIVE
+======================================== */
+
+@media screen and (max-width:1450px){
+
+
+    /* ========================================
+       HEADER CONTAINER
+    ======================================== */
+
+    #HeaderContainer{
+        width:calc(100% - 70px);
+    }
+
+
+    /* ========================================
+       EVENT DETAILS CONTAINER
+    ======================================== */
+
+    #EventDetailsContainer{
+        width:calc(100% - 70px);
+    }
+
+
+}
+
+
+/* ========================================
+   TABLET RESPONSIVE
+======================================== */
+
+@media screen and (max-width:1100px){
+
+
+    /* ========================================
+       HEADER CONTAINER
+    ======================================== */
+
+    #HeaderContainer{
+        position:relative;
+
+        height:auto;
+        min-height:90px;
+
+        margin-top:10px;
+        margin-bottom:10px;
+
+        flex-wrap:wrap;
+    }
+
+
+    /* ========================================
+       WEBSITE BRAND
+    ======================================== */
+
+    #WebsiteBrand{
+        height:90px;
+    }
+
+
+    /* ========================================
+       MOBILE MENU BUTTON
+    ======================================== */
+
+    #MobileMenuButton{
+        display:block;
+    }
+
+
+    /* ========================================
+       HEADER NAVIGATION
+    ======================================== */
+
+    #HeaderNavigation{
+        display:none;
+
+        width:100%;
+        height:auto;
+
+        flex-basis:100%;
+        flex-direction:column;
+        align-items:stretch;
+
+        padding:15px 0px 25px 0px;
+
+        border-top:1px solid #dddddd;
+    }
+
+
+    /* ========================================
+       OPEN HEADER NAVIGATION
+    ======================================== */
+
+    #HeaderNavigation.ShowNavigation{
+        display:flex;
+    }
+
+
+    /* ========================================
+       NAVIGATION LINKS
+    ======================================== */
+
+    #NavigationLinks{
+        width:100%;
+        height:auto;
+
+        margin-left:0px;
+
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+
+    /* ========================================
+       NAVIGATION LINK
+    ======================================== */
+
+    .NavigationLink{
+        width:100%;
+
+        margin-right:0px;
+        padding:14px 5px;
+
+        border-bottom:1px solid #e3e3e8;
+    }
+
+
+    /* ========================================
+       HEADER ACTIONS
+    ======================================== */
+
+    #HeaderActions{
+        width:100%;
+
+        margin-top:20px;
+
+        justify-content:space-between;
+    }
+
+
+    /* ========================================
+       EVENT BANNER SECTION
+    ======================================== */
+
+    #EventBannerSection{
+        height:470px;
+    }
+
+
+    /* ========================================
+       EVENT CONTENT SECTION
+    ======================================== */
+
+    #EventContentSection{
+        grid-template-columns:minmax(0px, 1fr) 320px;
+        column-gap:40px;
+    }
+
+
+    /* ========================================
+       EVENT TITLE
+    ======================================== */
+
+    #EventTitle{
+        font-size:40px;
+    }
+
+
+    /* ========================================
+       EVENT DESCRIPTION
+    ======================================== */
+
+    #EventDescription{
+        font-size:17px;
+    }
+
+
+    /* ========================================
+       EVENT INFORMATION CARD
+    ======================================== */
+
+    #EventInformationCard{
+        width:320px;
+
+        padding-right:20px;
+        padding-left:20px;
+    }
+
+
+    /* ========================================
+       FOOTER CONTAINER
+    ======================================== */
+
+    #FooterContainer{
+        flex-wrap:wrap;
+    }
+
+
+    /* ========================================
+       FOOTER LOGO SECTION
+    ======================================== */
+
+    #FooterLogoSection{
+        width:30%;
+    }
+
+
+    /* ========================================
+       FOOTER SOCIAL SECTION
+    ======================================== */
+
+    #FooterSocialSection{
+        width:70%;
+
+        border-right:0px;
+    }
+
+
+    /* ========================================
+       FOOTER ACTION SECTION
+    ======================================== */
+
+    #FooterActionSection{
+        width:100%;
+
+        border-top:1px solid rgba(255,255,255,0.22);
+    }
+
+
+}
+
+
+/* ========================================
+   MOBILE RESPONSIVE
+======================================== */
+
+@media screen and (max-width:768px){
+
+
+    /* ========================================
+       HEADER CONTAINER
+    ======================================== */
+
+    #HeaderContainer{
+        width:calc(100% - 32px);
+    }
+
+
+    /* ========================================
+       WEBSITE BRAND
+    ======================================== */
+
+    #WebsiteBrand{
+        width:auto;
+    }
+
+
+    /* ========================================
+       HEADER LOGO
+    ======================================== */
+
+    #HeaderLogo{
+        width:50px;
+        height:50px;
+    }
+
+
+    /* ========================================
+       WEBSITE NAME
+    ======================================== */
+
+    #WebsiteName{
+        font-size:23px;
+    }
+
+
+    /* ========================================
+       HEADER ACTIONS
+    ======================================== */
+
+    #HeaderActions{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+
+    /* ========================================
+       LANGUAGE BUTTON
+    ======================================== */
+
+    #LanguageButton{
+        margin:0px 0px 18px 0px;
+    }
+
+
+    /* ========================================
+       CREATE EVENT BUTTON
+    ======================================== */
+
+    #CreateEventButton{
+        width:100%;
+    }
+
+
+    /* ========================================
+       EVENT DETAILS MAIN SECTION
+    ======================================== */
+
+    #EventDetailsMain{
+        padding-bottom:50px;
+    }
+
+
+    /* ========================================
+       EVENT DETAILS CONTAINER
+    ======================================== */
+
+    #EventDetailsContainer{
+        width:calc(100% - 32px);
+    }
+
+
+    /* ========================================
+       EVENT BANNER SECTION
+    ======================================== */
+
+    #EventBannerSection{
+        height:310px;
+
+        border-radius:14px;
+    }
+
+
+    /* ========================================
+       EVENT CONTENT SECTION
+    ======================================== */
+
+    #EventContentSection{
+        margin-top:35px;
+
+        display:block;
+    }
+
+
+    /* ========================================
+       EVENT CATEGORY
+    ======================================== */
+
+    #EventCategory{
+        min-width:125px;
+
+        padding:7px 18px;
+
+        font-size:12px;
+    }
+
+
+    /* ========================================
+       EVENT TITLE
+    ======================================== */
+
+    #EventTitle{
+        margin-top:25px;
+
+        font-size:34px;
+        line-height:1.2;
+    }
+
+
+    /* ========================================
+       EVENT TITLE DECORATION LINE
+    ======================================== */
+
+    #EventTitleLine{
+        width:170px;
+
+        margin-bottom:32px;
+    }
+
+
+    /* ========================================
+       EVENT DESCRIPTION
+    ======================================== */
+
+    #EventDescription{
+        font-size:16px;
+        line-height:1.55;
+    }
+
+
+    /* ========================================
+       EVENT INFORMATION CARD
+    ======================================== */
+
+    #EventInformationCard{
+        width:100%;
+
+        margin-top:45px;
+    }
+
+
+    /* ========================================
+       FOOTER LOGO SECTION
+    ======================================== */
+
+    #FooterLogoSection{
+        width:100%;
+        min-height:140px;
+
+        border-bottom:1px solid rgba(255,255,255,0.22);
+    }
+
+
+    /* ========================================
+       FOOTER SOCIAL SECTION
+    ======================================== */
+
+    #FooterSocialSection{
+        width:100%;
+        min-height:160px;
+    }
+
+
+    /* ========================================
+       FOOTER ACTION SECTION
+    ======================================== */
+
+    #FooterActionSection{
+        grid-template-columns:1fr;
+    }
+
+
+    /* ========================================
+       FOOTER ACTION BOX
+    ======================================== */
+
+    .FooterActionBox{
+        min-height:145px;
+
+        border-bottom:1px solid rgba(255,255,255,0.22);
+    }
+
+
+    /* ========================================
+       BACK TO TOP BUTTON
+    ======================================== */
+
+    #BackToTopButton{
+        right:18px;
+        bottom:18px;
+
+        width:48px;
+        height:48px;
+
+        line-height:48px;
+    }
+
+
+}
+
+
+/* ========================================
+   SMALL MOBILE RESPONSIVE
+======================================== */
+
+@media screen and (max-width:480px){
+
+
+    /* ========================================
+       HEADER CONTAINER
+    ======================================== */
+
+    #HeaderContainer{
+        width:calc(100% - 24px);
+    }
+
+
+    /* ========================================
+       WEBSITE NAME
+    ======================================== */
+
+    #WebsiteName{
+        font-size:20px;
+    }
+
+
+    /* ========================================
+       MOBILE MENU BUTTON
+    ======================================== */
+
+    #MobileMenuButton{
+        width:42px;
+        height:42px;
+    }
+
+
+    /* ========================================
+       EVENT DETAILS CONTAINER
+    ======================================== */
+
+    #EventDetailsContainer{
+        width:calc(100% - 24px);
+    }
+
+
+    /* ========================================
+       EVENT BANNER SECTION
+    ======================================== */
+
+    #EventBannerSection{
+        height:230px;
+    }
+
+
+    /* ========================================
+       EVENT TITLE
+    ======================================== */
+
+    #EventTitle{
+        font-size:28px;
+    }
+
+
+    /* ========================================
+       EVENT TITLE DECORATION LINE
+    ======================================== */
+
+    #EventTitleLine{
+        width:140px;
+        height:3px;
+    }
+
+
+    /* ========================================
+       EVENT DESCRIPTION
+    ======================================== */
+
+    #EventDescription{
+        font-size:15px;
+    }
+
+
+    /* ========================================
+       EVENT INFORMATION CARD
+    ======================================== */
+
+    #EventInformationCard{
+        padding:25px 18px;
+    }
+
+
+    /* ========================================
+       EVENT INFORMATION TITLE
+    ======================================== */
+
+    #EventInformationTitle{
+        font-size:18px;
+    }
+
+
+    /* ========================================
+       FOOTER SOCIAL LINKS
+    ======================================== */
+
+    #FooterSocialLinks{
+        gap:7px;
+    }
+
+
+    /* ========================================
+       FOOTER SOCIAL LINK
+    ======================================== */
+
+    .FooterSocialLink{
+        width:37px;
+        height:37px;
+    }
+
+
+    /* ========================================
+       SOCIAL MEDIA TEXT
+    ======================================== */
+
+    .SocialText{
+        font-size:22px;
+    }
+
+
+}

@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+
+    <title>
+        Saved Events | WXNDSH
+    </title>
+
+
+    <!-- ========================================
+         MAIN WEBSITE CSS
+    ========================================= -->
+
+    <link
+        href="css/stylewebsite.css"
+        type="text/css"
+        rel="stylesheet"
+    >
+
+
+    <!-- ========================================
+         SAVED EVENTS CSS
+    ========================================= -->
+
+    <link
+        href="css/stylesaved.css"
+        type="text/css"
+        rel="stylesheet"
+    >
+
+
+    <!-- ========================================
+         GOOGLE FONTS
+    ========================================= -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allison&family=Inter:wght@400;600;700&family=Montserrat:wght@800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- ========================================
+         FONT AWESOME
+    ========================================= -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+</head>
+
+
+
+<body>
+
+
+<!-- ========================================
+     MAIN CONTENT
+======================================== -->
+
+<div id="KotakBesar">
+
+
+    <!-- ========================================
+         HEADER
+    ========================================= -->
+
+    <div id="Header">
+
+
+        <!-- ========================================
+             LOGO
+        ========================================= -->
+
+        <div id="Logo">
+
+            <img
+                src="img/logo.png"
+                alt="WXNDSH Logo"
+            >
+
+            <span>
+                WXNDSH
+            </span>
+
+        </div>
+
+
+
+        <!-- ========================================
+             NAVIGATION MENU
+        ========================================= -->
+
+        <div id="Menu">
+
+            <a
+                href="index.html"
+                id="HomeText"
+            >
+                Home
+            </a>
+
+
+            <a
+                href="savedevents.html"
+                id="SavedText"
+                class="ActiveMenu"
+            >
+                Saved Events
+            </a>
+
+
+            <a
+                href="aboutus.html"
+                id="AboutText"
+            >
+                About Us
+            </a>
+
+
+            <a
+                href="contactus.html"
+                id="ContactText"
+            >
+                Contact Us
+            </a>
+
+        </div>
+
+
+
+        <!-- ========================================
+             HEADER RIGHT
+        ========================================= -->
+
+        <div id="HeaderRight">
+
+
+            <!-- ========================================
+                 LANGUAGE
+            ========================================= -->
+
+            <div id="Language">
+
+                <button
+                    type="button"
+                    id="LanguageButton"
+                >
+
+                    <img
+                        src="img/uk flag.png"
+                        id="LanguageFlag"
+                        alt="Language"
+                    >
+
+                </button>
+
+
+                <span id="LanguageText">
+                    EN
+                </span>
+
+            </div>
+
+
+
+            <!-- ========================================
+                 CREATE EVENT BUTTON
+            ========================================= -->
+
+            <div id="CreateEvent">
+
+                <a
+                    href="create.html"
+                    id="CreateEventText"
+                >
+                    Create Event
+                </a>
+
+            </div>
+
+
+            <div class="Clear"></div>
+
+        </div>
+
+
+        <div class="Clear"></div>
+
+    </div>
+
+
+
+    <!-- ========================================
+         SAVED EVENTS BANNER
+    ========================================= -->
+
+    <div id="SavedBanner">
+
+
+        <!-- ========================================
+             BANNER OVERLAY
+        ========================================= -->
+
+        <div id="SavedBannerOverlay"></div>
+
+
+
+        <!-- ========================================
+             BANNER TEXT
+        ========================================= -->
+
+        <div id="SavedBannerText">
+
+
+            <p id="SavedBannerSmallText">
+                EXPLORE YOUR
+            </p>
+
+
+            <h1 id="SavedBannerHeading">
+                SAVED EVENTS
+            </h1>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         SAVED EVENTS TITLE SECTION
+    ========================================= -->
+
+    <div id="SavedHeadingSection">
+
+
+        <div id="SavedHeadingLabel">
+
+            <span id="ExploreLabelText">
+                EXPLORE
+            </span>
+
+        </div>
+
+
+
+        <div id="SavedMainHeading">
+
+
+            <h1>
+
+
+                <span id="YourSavedText">
+                    Your Saved
+                </span>
+
+
+                <span id="EventsScriptText">
+                    Events
+                </span>
+
+
+            </h1>
+
+
+            <div id="SavedHeadingLine"></div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         SAVED EVENTS CONTENT
+    ========================================= -->
+
+    <div id="SavedEventsSection">
+
+
+        <!-- ========================================
+             SAVED EVENT LIST
+        ========================================= -->
+
+        <div id="SavedEventList">
+
+
+
+
+
+        </div>
+
+
+
+        <!-- ========================================
+             NO SAVED EVENTS MESSAGE
+        ========================================= -->
+
+        <div id="NoSavedEventsMessage">
+
+
+            <i class="fa-regular fa-calendar-xmark"></i>
+
+
+            <h2 id="NoSavedEventsHeading">
+                No Saved Events
+            </h2>
+
+
+            <p id="NoSavedEventsDescription">
+                Events that you save will appear here.
+            </p>
+
+
+            <a
+                href="index.html#EventList"
+                id="ExploreEventsButton"
+            >
+                EXPLORE EVENTS
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- ========================================
+     BACK TO TOP
+======================================== -->
+
+<button
+    type="button"
+    id="BackToTop"
+    aria-label="Back to top"
+>
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+
+<!-- ========================================
+     FOOTER
+======================================== -->
+
+<div id="Footer">
+
+
+    <!-- ========================================
+         FOOTER LOGO
+    ========================================= -->
+
+    <div id="FooterLogo">
+
+        <img
+            src="img/LOGO 2 TRANSPARENT.png"
+            alt="WXNDSH Logo"
+        >
+
+    </div>
+
+
+
+    <!-- ========================================
+         SOCIAL MEDIA
+    ========================================= -->
+
+    <div id="SocialMedia">
+
+
+        <h3 id="FollowUsText">
+            FOLLOW US ON
+        </h3>
+
+
+        <div class="SocialIcons">
+
+
+            <a
+                href="https://x.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <img
+                    src="img/logo x remove.png"
+                    alt="X"
+                >
+
+            </a>
+
+
+            <a
+                href="https://www.instagram.com/wxndsh/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <img
+                    src="img/logo ig remove.png"
+                    alt="Instagram"
+                >
+
+            </a>
+
+
+            <a
+                href="https://www.tiktok.com/@wxndssh"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <img
+                    src="img/logo tiktok remove.png"
+                    alt="TikTok"
+                >
+
+            </a>
+
+
+            <a
+                href="https://www.youtube.com/@bobversiMalaysia"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <img
+                    src="img/logo yt remove.png"
+                    alt="YouTube"
+                >
+
+            </a>
+
+
+            <a
+                href="https://www.facebook.com/profile.php?id=100069882215740"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+
+                <img
+                    src="img/logo facebook remove.png"
+                    alt="Facebook"
+                >
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         FOOTER CONTACT
+    ========================================= -->
+
+    <div id="FooterContact">
+
+
+        <h3 id="HelpFeedbackText">
+            HELP AND FEEDBACK
+        </h3>
+
+
+        <a
+            href="contactus.html"
+            id="FooterContactText"
+        >
+            CONTACT US &#8599;
+        </a>
+
+
+    </div>
+
+
+
+    <!-- ========================================
+         FOOTER CREATE EVENT
+    ========================================= -->
+
+    <div id="FooterCreate">
+
+
+        <h3 id="FooterCreateHeading">
+            CREATE YOUR EVENT
+        </h3>
+
+
+        <a
+            href="create.html"
+            id="FooterCreateText"
+        >
+            CREATE EVENT
+        </a>
+
+
+    </div>
+
+
+    <div class="Clear"></div>
+
+
+</div>
+
+
+
+<!-- ========================================
+     JAVASCRIPT
+======================================== -->
+
+<script type="text/javascript">
+
+
+    /* ========================================
+       BACK TO TOP
+    ======================================== */
+
+    var backToTop =
+        document.getElementById("BackToTop");
+
+
+    window.addEventListener("scroll", function(){
+
+
+        if(
+            document.body.scrollTop > 400 ||
+            document.documentElement.scrollTop > 400
+        ){
+
+
+            backToTop.classList.add(
+                "ShowBackToTop"
+            );
+
+
+        }else{
+
+
+            backToTop.classList.remove(
+                "ShowBackToTop"
+            );
+
+
+        }
+
+
+    });
+
+
+
+    backToTop.onclick = function(){
+
+
+        window.scrollTo({
+
+            top:0,
+
+            behavior:"smooth"
+
+        });
+
+
+    };
+
+
+
+    /* ========================================
+       LANGUAGE ELEMENTS
+    ======================================== */
+
+    var languageButton =
+        document.getElementById("LanguageButton");
+
+    var languageFlag =
+        document.getElementById("LanguageFlag");
+
+    var languageText =
+        document.getElementById("LanguageText");
+
+
+    var homeText =
+        document.getElementById("HomeText");
+
+    var savedText =
+        document.getElementById("SavedText");
+
+    var aboutText =
+        document.getElementById("AboutText");
+
+    var contactText =
+        document.getElementById("ContactText");
+
+    var createEventText =
+        document.getElementById("CreateEventText");
+
+
+    var savedBannerSmallText =
+        document.getElementById("SavedBannerSmallText");
+
+    var savedBannerHeading =
+        document.getElementById("SavedBannerHeading");
+
+    var exploreLabelText =
+        document.getElementById("ExploreLabelText");
+
+    var yourSavedText =
+        document.getElementById("YourSavedText");
+
+    var eventsScriptText =
+        document.getElementById("EventsScriptText");
+
+
+    var moreText =
+        document.getElementsByClassName("MoreText");
+
+
+    var noSavedEventsHeading =
+        document.getElementById("NoSavedEventsHeading");
+
+    var noSavedEventsDescription =
+        document.getElementById("NoSavedEventsDescription");
+
+    var exploreEventsButton =
+        document.getElementById("ExploreEventsButton");
+
+
+    var followUsText =
+        document.getElementById("FollowUsText");
+
+    var helpFeedbackText =
+        document.getElementById("HelpFeedbackText");
+
+    var footerContactText =
+        document.getElementById("FooterContactText");
+
+    var footerCreateHeading =
+        document.getElementById("FooterCreateHeading");
+
+    var footerCreateText =
+        document.getElementById("FooterCreateText");
+
+
+    var currentLanguage =
+        "EN";
+
+
+
+    /* ========================================
+       LANGUAGE BUTTON
+    ======================================== */
+
+    languageButton.onclick = function(){
+
+
+        if(currentLanguage == "EN"){
+
+
+            languageFlag.src =
+                "img/malay flag.png";
+
+            languageText.innerHTML =
+                "BM";
+
+
+            homeText.innerHTML =
+                "Laman Utama";
+
+            savedText.innerHTML =
+                "Acara Disimpan";
+
+            aboutText.innerHTML =
+                "Tentang Kami";
+
+            contactText.innerHTML =
+                "Hubungi Kami";
+
+            createEventText.innerHTML =
+                "Cipta Acara";
+
+
+            savedBannerSmallText.innerHTML =
+                "TEROKAI";
+
+            savedBannerHeading.innerHTML =
+                "ACARA DISIMPAN";
+
+            exploreLabelText.innerHTML =
+                "TEROKAI";
+
+            yourSavedText.innerHTML =
+                "Acara";
+
+            eventsScriptText.innerHTML =
+                "Disimpan";
+
+
+            for(var i = 0; i < moreText.length; i++){
+
+
+                moreText[i].innerHTML =
+                    "BUTIRAN";
+
+
+            }
+
+
+            noSavedEventsHeading.innerHTML =
+                "Tiada Acara Disimpan";
+
+            noSavedEventsDescription.innerHTML =
+                "Acara yang anda simpan akan dipaparkan di sini.";
+
+            exploreEventsButton.innerHTML =
+                "TEROKAI ACARA";
+
+
+            followUsText.innerHTML =
+                "IKUTI KAMI";
+
+            helpFeedbackText.innerHTML =
+                "BANTUAN DAN MAKLUM BALAS";
+
+            footerContactText.innerHTML =
+                "HUBUNGI KAMI &#8599;";
+
+            footerCreateHeading.innerHTML =
+                "CIPTA ACARA ANDA";
+
+            footerCreateText.innerHTML =
+                "CIPTA ACARA";
+
+
+            currentLanguage =
+                "BM";
+
+
+        }else{
+
+
+            languageFlag.src =
+                "img/uk flag.png";
+
+            languageText.innerHTML =
+                "EN";
+
+
+            homeText.innerHTML =
+                "Home";
+
+            savedText.innerHTML =
+                "Saved Events";
+
+            aboutText.innerHTML =
+                "About Us";
+
+            contactText.innerHTML =
+                "Contact Us";
+
+            createEventText.innerHTML =
+                "Create Event";
+
+
+            savedBannerSmallText.innerHTML =
+                "EXPLORE YOUR";
+
+            savedBannerHeading.innerHTML =
+                "SAVED EVENTS";
+
+            exploreLabelText.innerHTML =
+                "EXPLORE";
+
+            yourSavedText.innerHTML =
+                "Your Saved";
+
+            eventsScriptText.innerHTML =
+                "Events";
+
+
+            for(var i = 0; i < moreText.length; i++){
+
+
+                moreText[i].innerHTML =
+                    "MORE";
+
+
+            }
+
+
+            noSavedEventsHeading.innerHTML =
+                "No Saved Events";
+
+            noSavedEventsDescription.innerHTML =
+                "Events that you save will appear here.";
+
+            exploreEventsButton.innerHTML =
+                "EXPLORE EVENTS";
+
+
+            followUsText.innerHTML =
+                "FOLLOW US ON";
+
+            helpFeedbackText.innerHTML =
+                "HELP AND FEEDBACK";
+
+            footerContactText.innerHTML =
+                "CONTACT US &#8599;";
+
+            footerCreateHeading.innerHTML =
+                "CREATE YOUR EVENT";
+
+            footerCreateText.innerHTML =
+                "CREATE EVENT";
+
+
+            currentLanguage =
+                "EN";
+
+
+        }
+
+
+    };
+
+
+
+/* ========================================
+   SAVED EVENTS
+======================================== */
+
+var savedEventList =
+    document.getElementById("SavedEventList");
+
+var noSavedEventsMessage =
+    document.getElementById("NoSavedEventsMessage");
+
+
+var savedEvents =
+    JSON.parse(
+        localStorage.getItem("wxndshSavedEvents")
+    ) || [];
+
+
+
+/* ========================================
+   CREATE SAVED EVENT CARD
+======================================== */
+
+function createSavedEventCard(savedEvent){
+
+
+    var savedEventCard =
+        document.createElement("div");
+
+
+    savedEventCard.className =
+        "EventCard SavedEventCard";
+
+
+    savedEventCard.setAttribute(
+        "data-event-id",
+        savedEvent.id
+    );
+
+
+    savedEventCard.setAttribute(
+        "data-category",
+        savedEvent.category
+    );
+
+
+    savedEventCard.innerHTML =
+
+        '<img' +
+
+            ' class="' +
+            savedEvent.imageClass +
+            '"' +
+
+            ' src="' +
+            savedEvent.image +
+            '"' +
+
+            ' alt="' +
+            savedEvent.imageAlt +
+            '"' +
+
+        '>' +
+
+
+        '<div class="EventContent">' +
+
+
+            '<p class="' +
+            savedEvent.categoryClass +
+            '">' +
+
+                savedEvent.categoryText +
+
+            '</p>' +
+
+
+            '<button' +
+
+                ' type="button"' +
+
+                ' class="RemoveSavedIcon"' +
+
+                ' aria-label="Remove saved event"' +
+
+                ' title="Remove from saved events"' +
+
+            '>' +
+
+                '<i class="fa-solid fa-trash-can"></i>' +
+
+            '</button>' +
+
+
+            '<h2>' +
+
+                savedEvent.title +
+
+            '</h2>' +
+
+
+            '<h3>' +
+
+                savedEvent.location +
+
+            '</h3>' +
+
+
+            '<p class="EventInfo">' +
+
+                '<i class="fa-solid fa-calendar-days"></i>' +
+
+                savedEvent.date +
+
+            '</p>' +
+
+
+            '<p class="EventInfo">' +
+
+                '<i class="fa-regular fa-clock"></i>' +
+
+                savedEvent.time +
+
+            '</p>' +
+
+
+'<div class="MoreButton">' +
+
+    '<a' +
+
+        ' href="more.html?id=' +
+        savedEvent.id +
+        '"' +
+
+        ' class="MoreText"' +
+
+    '>' +
+
+        'MORE' +
+
+    '</a>' +
+
+'</div>' +
+
+
+            '<div class="Clear"></div>' +
+
+
+        '</div>';
+
+
+    savedEventList.appendChild(
+        savedEventCard
+    );
+
+
+}
+
+
+
+/* ========================================
+   DISPLAY SAVED EVENTS
+======================================== */
+
+function displaySavedEvents(){
+
+
+    savedEventList.innerHTML =
+        "";
+
+
+    if(savedEvents.length == 0){
+
+
+        savedEventList.style.display =
+            "none";
+
+
+        noSavedEventsMessage.style.display =
+            "block";
+
+
+        return;
+
+
+    }
+
+
+    savedEventList.style.display =
+        "grid";
+
+
+    noSavedEventsMessage.style.display =
+        "none";
+
+
+    for(var i = 0; i < savedEvents.length; i++){
+
+
+        createSavedEventCard(
+            savedEvents[i]
+        );
+
+
+    }
+
+
+}
+
+
+
+/* ========================================
+   REMOVE SAVED EVENT
+======================================== */
+
+savedEventList.onclick = function(event){
+
+
+    var removeButton =
+        event.target.closest(
+            ".RemoveSavedIcon"
+        );
+
+
+    if(removeButton == null){
+
+
+        return;
+
+
+    }
+
+
+    var selectedCard =
+        removeButton.closest(
+            ".SavedEventCard"
+        );
+
+
+    var selectedEventId =
+        selectedCard.getAttribute(
+            "data-event-id"
+        );
+
+
+    selectedCard.classList.add(
+        "RemoveSavedCard"
+    );
+
+
+    setTimeout(function(){
+
+
+        for(var i = 0; i < savedEvents.length; i++){
+
+
+            if(savedEvents[i].id == selectedEventId){
+
+
+                savedEvents.splice(
+                    i,
+                    1
+                );
+
+
+                break;
+
+
+            }
+
+
+        }
+
+
+        localStorage.setItem(
+
+            "wxndshSavedEvents",
+
+            JSON.stringify(savedEvents)
+
+        );
+
+
+        displaySavedEvents();
+
+
+    }, 350);
+
+
+};
+
+
+
+/* ========================================
+   DISPLAY SAVED EVENTS WHEN PAGE LOADS
+======================================== */
+
+displaySavedEvents();
+
+</script>
+
+
+</body>
+
+
+</html>
